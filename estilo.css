@@ -12,7 +12,7 @@ main {
     width: 700px;
     margin: auto;
     padding: 10px;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.603);
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.603);
 }
 
 h1 {
@@ -42,4 +42,19 @@ a {
 a:hover {
     text-decoration: underline;
     color: rgb(156, 91, 44);
+}
+
+u {
+    font-size: 1.0em;
+    color: rgb(128, 60, 11)
+}
+
+figcaption {
+    font-size: 0.8em;
+    color: rgba(0, 0, 0, 0.692);
+    float: right;
+}
+
+p.ladoE {
+    float: left;
 }
