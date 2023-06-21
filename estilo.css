@@ -18,6 +18,7 @@ main {
 h1 {
     font-size: 2em;
     color: rgb(128, 60, 11);
+    text-align: center;
 }
 
 h2 {
@@ -34,9 +35,10 @@ img.ladoE {
 }
 
 a {
+    font-size: 1.0em;
     text-decoration: none;
     font-weight: bold;
-    color: rgb(139, 78, 35);
+    color: rgb(153, 88, 14);
 }
 
 a:hover {
@@ -51,7 +53,7 @@ u {
 
 figcaption {
     font-size: 0.8em;
-    color: rgba(0, 0, 0, 0.692);
+    color: rgb(0, 0, 0);
     float: right;
 }
 
