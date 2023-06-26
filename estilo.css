@@ -24,6 +24,7 @@ h1 {
 h2 {
     font-size: 1.5em;
     color: rgba(201, 96, 21, 0.849);
+    text-align: center;
 }
 
 img.ladoD {
@@ -51,12 +52,47 @@ u {
     color: rgb(128, 60, 11)
 }
 
-figcaption {
+figcaption.ladoD {
     font-size: 0.8em;
     color: rgb(0, 0, 0);
     float: right;
 }
 
+p {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+figcaption.ladoE {
+    font-size: 0.8em;
+    color: rgb(0, 0, 0);
+    float: left;
+}
+
 p.ladoE {
     float: left;
+}
+
+a.Son {
+    font-size: 1.0em;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(145, 46, 0);
+}
+
+a.Dad {
+    font-size: 1.0em;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(107, 75, 39);
+}
+
+a.Site {
+    font-size: 1.0em;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(2, 100, 7);
 }
