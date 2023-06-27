@@ -96,3 +96,20 @@ a.Site {
     font-weight: bold;
     color: rgb(2, 100, 7);
 }
+
+a.Movie {
+    font-size: 1.0em;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(68, 124, 68);
+}
+
+h4 {
+    text-align: center;
+}
+
+figcaption.centro {
+    font-size: 0.8em;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
