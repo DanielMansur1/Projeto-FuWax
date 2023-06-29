@@ -1,0 +1,89 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+body {
+    background-color: rgb(0, 81, 95);
+    background-image: url("fundo\ 1.6.jpg");
+}
+
+main {
+    background-color: rgb(250, 250, 250);
+    width: 660px;
+    margin: auto;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 2em;
+    color: rgb(46, 2, 2);
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: rgb(31, 131, 170);
+    text-align: center;
+}
+
+img.ladoD {
+    float: right;
+}
+
+img.ladoE {
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(24, 24, 163);
+}
+
+a.Cold {
+    text-decoration: none;
+    font-size: 1.0em;
+    font-weight: bold;
+    color: rgba(179, 39, 39, 0.904);
+}
+
+a.Cool {
+    text-decoration:none ;
+    font-size: 1.0em;
+    font-weight: bold;
+    color: blue;
+}
+
+a.SummerCool {
+    text-decoration: none;
+    font-size: 1.0em;
+    font-weight: bold;
+    color: rgb(0, 107, 0);
+}
+
+a.Warm {
+    text-decoration: none;
+    font-size: 1.0em;
+    font-weight: bold;
+    color: rgb(204, 204, 0);
+}
+
+a.Tropical {
+    text-decoration: none;
+    font-size: 1.0em;
+    font-weight: bold;
+    color: rgb(226, 123, 4);
+}
+
+a.BaseCoat {
+    text-decoration: none;
+    font-size: 1.0em;
+    font-weight: bold;
+    color: rgb(145, 22, 6);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(57, 56, 65);
+}

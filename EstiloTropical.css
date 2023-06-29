@@ -1,0 +1,35 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    background-image: url("Wiggolly_Dantas\ tropical\ sem\ fundo.png");
+    background-repeat: no-repeat;
+    background-position: 0% 150%;
+}
+
+main {
+    background-color: rgb(226, 92, 2);
+    width: 675px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 15px 15px 15px rgb(126, 62, 19);
+}
+
+h1 {
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+img.lado {
+    float: right;
+}
+
+p {
+    font-size: 1.1em;
+    color: white;
+    text-align: center;
+}

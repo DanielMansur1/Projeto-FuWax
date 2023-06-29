@@ -1,0 +1,36 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+body {
+    background-color: rgb(6, 0, 83);
+    background-image: url("Kei\ Kobayashi\ cool\ sem\ fundo.png");
+    background-repeat: no-repeat;
+    background-position: 0% 150%;
+}
+
+main {
+    background-color: rgb(8, 10, 163);
+    width: 665px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 15px 15px 15px rgb(0, 155, 216);
+}
+
+h1 {
+    font-size: 2em;
+    color: rgb(4, 172, 238);
+    text-align: center;
+}
+
+img.lado {
+    float: right;
+}
+
+p {
+    font-size: 1.1em;
+    color: white;
+    text-align: center;
+}
+

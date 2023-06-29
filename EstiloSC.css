@@ -1,0 +1,35 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+body {
+    background-color: rgb(0, 7, 70);
+    background-image: url("Ícaro_Rodrigues_summer_cool\ sem\ fundo.png");
+    background-repeat: no-repeat;
+    background-position: 0% 150%;
+}
+
+main {
+    background-color: rgb(0, 206, 0);
+    width: 675px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 15px 15px 15px rgb(17, 105, 17);
+}
+
+h1 {
+    font-size: 2em;
+    color: rgb(0, 14, 139);
+    text-align: center;
+}
+
+img.lado {
+    float: right;
+}
+
+p {
+    font-size: 1.1em;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
