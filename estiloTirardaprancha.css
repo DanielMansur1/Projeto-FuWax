@@ -1,0 +1,62 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+body {
+    background-color: rgba(124, 59, 5, 0.911);
+}
+
+main {
+    background-color: white;
+    width: 700px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 15px 15px 15px rgba(197, 92, 6, 0.911);
+}
+
+h1 {
+    font-size: 2em;
+    color: rgb(128, 60, 11);
+    text-align: center;
+}
+
+u {
+    font-size: 1.0em;
+    color: rgb(128, 60, 11);
+}
+
+p.centro {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    color: rgb(128, 70, 28);
+}
+
+h4 {
+    text-align: center;
+}
+
+figcaption.ladoE {
+    font-size: 0.75em;
+    float: left;
+    color: rgb(88, 88, 88);
+}
+
+figcaption.ladoD {
+    font-size: 0.75em;
+    float: right;
+    color: rgb(88, 88, 88);
+}
+
+a {
+    font-size: 0.95em;
+    color: rgb(54, 31, 31)
+}
+
+p {
+    color: rgb(66, 29, 2);
+    font-size: 1.0em;
+}

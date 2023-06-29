@@ -1,0 +1,73 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+body {
+    background-color: rgb(124, 61, 10);
+}
+
+main {
+    background-color: white;
+    width: 720px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 15px 15px 15px rgb(224, 111, 19);
+}
+
+h1 {
+    font-size: 2em;
+    color: rgb(128, 60, 11);
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: rgba(46, 46, 46, 0.849);
+}
+
+h3 {
+    font-size: 1.2em;
+    color: rgba(46, 46, 46, 0.849);
+    text-align: center;
+}
+
+h3.verde {
+    font-size: 1.2em;
+    color: rgb(0, 112, 0);
+    text-align: center;
+}
+
+h3.azul {
+    font-size: 1.2em;
+    color: rgb(0, 131, 131);
+    text-align: center;
+}
+
+figcaption {
+    float: left;
+    font-size: 0.75em;
+    color: rgb(26, 26, 26);
+}
+
+figcaption.ladoD {
+    float: right;
+    color: rgb(26, 26, 26);
+    font-size: 0.75em;
+}
+
+figcaption.ladoE {
+    float: left;
+    font-size: 0,75em;
+    color: rgb(26, 26, 26);
+}
+
+a {
+    color: rgb(0, 0, 0);
+    font-size: 0.95em; 
+}
+
+u.grande {
+    font-size: 0.9em;
+    rgb(128, 60, 11)
+}
