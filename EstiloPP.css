@@ -5,6 +5,8 @@
 
 body {
     background-color: rgb(124, 61, 10);
+    background-image: url("imagens/fundo\ 1.7\ blur.jpeg");
+    background-position: 50%;
 }
 
 main {
@@ -12,7 +14,7 @@ main {
     width: 720px;
     margin: auto;
     padding: 10px;
-    box-shadow: 15px 15px 15px rgb(224, 111, 19);
+    box-shadow: 15px 15px 15px rgba(165, 84, 9, 0.61);
 }
 
 h1 {
@@ -63,11 +65,19 @@ figcaption.ladoE {
 }
 
 a {
-    color: rgb(0, 0, 0);
-    font-size: 0.95em; 
+    color: rgba(148, 67, 0, 0.753);
+    font-size: 1.0em; 
 }
 
 u.grande {
     font-size: 0.9em;
-    rgb(128, 60, 11)
+    color: rgb(128, 60, 11)
+}
+
+img.ladoE {
+    float: left;
+}
+
+img.ladoD {
+    float: right;
 }

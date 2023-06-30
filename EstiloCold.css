@@ -33,3 +33,13 @@ p {
     color: white;
     text-align: center;
 }
+
+a.sc {
+    color: rgb(0, 206, 0);
+    font-size: 1.0em;
+}
+
+a.cool {
+    color: rgb(14, 154, 219);
+    font-size: 1.0em;
+}

@@ -13,6 +13,7 @@ main {
     width: 660px;
     margin: auto;
     padding: 10px;
+    box-shadow: 15px 15px 15px rgba(6, 123, 177, 0.61);
 }
 
 h1 {
