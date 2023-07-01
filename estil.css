@@ -10,7 +10,8 @@ body {
 
 main {
     background-color: rgb(250, 250, 250);
-    width: 660px;
+    min-width: 660px;
+    max-width: 660px;
     margin: auto;
     padding: 10px;
     box-shadow: 15px 15px 15px rgba(6, 123, 177, 0.61);

@@ -12,7 +12,8 @@ body {
 
 main {
     background-color: rgb(226, 92, 2);
-    width: 675px;
+    min-width: 675px;
+    max-width: 675px;
     margin: auto;
     padding: 10px;
     box-shadow: 15px 15px 15px rgb(126, 62, 19);

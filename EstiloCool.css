@@ -12,7 +12,8 @@ body {
 
 main {
     background-color: rgb(8, 10, 163);
-    width: 665px;
+    min-width: 665px;
+    max-width: 665px;
     margin: auto;
     padding: 10px;
     box-shadow: 15px 15px 15px rgb(0, 155, 216);
@@ -32,5 +33,20 @@ p {
     font-size: 1.1em;
     color: white;
     text-align: center;
+}
+
+a.sc {
+    color: rgb(0, 206, 0);
+    font-size: 1.0em;
+}
+
+a.cold {
+    color: rgba(179, 39, 39, 0.904);
+    font-size: 1.0em;
+}
+
+a.warm {
+    color: rgb(204, 204, 0);
+    font-size: 1.0em;
 }
 
