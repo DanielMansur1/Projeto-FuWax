@@ -4,19 +4,19 @@
 }
 
 body {
-    background-color: rgb(211, 14, 0);
+    background-color: rgb(224, 224, 0);
     background-image: url("Filipe\ Toledo\ warm\ sem\ fundo.png");
     background-repeat: no-repeat;
-    background-position: 0% 170%;
+    background-position: 0% 105%;
 }
 
 main {
-    background-color: rgb(224, 224, 0);
+    background-color: rgb(255, 255, 255);
     min-width: 665px;
     max-width: 665px;
     margin: auto;
     padding: 10px;
-    box-shadow: 15px 15px 15px rgb(139, 139, 14);
+    box-shadow: 15px 15px 15px rgb(211, 14, 0);
 }
 
 h1 {
@@ -25,8 +25,8 @@ h1 {
     text-align: center;
 }
 
-img.lado {
-    float: right;
+h1.img {
+    text-align: center;
 }
 
 p {
@@ -44,4 +44,12 @@ a {
 a:hover {
     text-decoration: underline;
     color: rgb(24, 24, 121);
+}
+
+strong {
+    font-size: 1.0em;
+}
+
+em {
+    font-size: 1.0em;
 }

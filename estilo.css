@@ -19,7 +19,7 @@ main {
 }
 
 em {
-    font-size: 1.2em;
+    font-size: 1.0em;
     color: rgb(136, 0, 0);
     text-align: center;
 }
@@ -117,7 +117,7 @@ a.Movie {
     font-size: 1.0em;
     text-decoration: none;
     font-weight: bold;
-    color: rgb(68, 124, 68);
+    color: rgb(124, 61, 10);
 }
 
 a.caminho {

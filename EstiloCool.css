@@ -4,14 +4,14 @@
 }
 
 body {
-    background-color: rgb(6, 0, 83);
+    background-color: rgb(8, 10, 163);
     background-image: url("Kei\ Kobayashi\ cool\ sem\ fundo.png");
     background-repeat: no-repeat;
-    background-position: 0% 170%;
+    background-position: 0% 100%;
 }
 
 main {
-    background-color: rgb(8, 10, 163);
+    background-color: rgb(255, 255, 255);
     min-width: 665px;
     max-width: 665px;
     margin: auto;
@@ -25,13 +25,13 @@ h1 {
     text-align: center;
 }
 
-img.lado {
-    float: right;
+h1.img {
+    text-align: center;
 }
 
 p {
     font-size: 1.1em;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
 }
 
@@ -50,3 +50,10 @@ a.warm {
     font-size: 1.0em;
 }
 
+strong {
+    font-size: 1.0em;
+}
+
+em {
+    font-size: 1.0em;
+}

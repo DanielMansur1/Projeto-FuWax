@@ -82,3 +82,7 @@ img.ladoE {
 img.ladoD {
     float: right;
 }
+
+em {
+    font-size: 1.0em;
+}

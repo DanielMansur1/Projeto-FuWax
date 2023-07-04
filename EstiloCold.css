@@ -7,7 +7,7 @@ body {
     background-color: rgba(0, 8, 83, 0.863);
     background-image: url("Michael_Rodrigues\ cold\ sem\ fundo.png");
     background-repeat: no-repeat;
-    background-position: 0% 165%;
+    background-position: 0% 100%;
     
 }
 
@@ -26,8 +26,8 @@ h1 {
     text-align: center;
 }
 
-img.lado {
-    float: right;
+h1.img {
+    text-align: center;
 }
 
 p {
@@ -48,5 +48,13 @@ a.cool {
 
 a.warm {
     color: rgb(204, 204, 0);
+    font-size: 1.0em;
+}
+
+strong {
+    font-size: 1.0em;
+}
+
+em {
     font-size: 1.0em;
 }
