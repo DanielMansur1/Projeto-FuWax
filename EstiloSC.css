@@ -7,7 +7,7 @@ body {
     background-color: rgb(0, 7, 70);
     background-image: url("Ícaro_Rodrigues_summer_cool\ sem\ fundo.png");
     background-repeat: no-repeat;
-    background-position: 0% 150%;
+    background-position: 0% 170%;
 }
 
 main {
@@ -33,4 +33,9 @@ p {
     font-size: 1.1em;
     color: rgb(0, 0, 0);
     text-align: center;
+}
+
+a {
+    color: rgb(212, 212, 2);
+    font-size: 1.0em;
 }

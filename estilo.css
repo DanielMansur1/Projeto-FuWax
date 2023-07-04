@@ -18,15 +18,21 @@ main {
     box-shadow: 15px 15px 15px rgba(134, 65, 0, 0.534);
 }
 
+em {
+    font-size: 1.2em;
+    color: rgb(136, 0, 0);
+    text-align: center;
+}
+
 h1 {
     font-size: 2em;
-    color: rgb(128, 60, 11);
+    color: rgb(148, 0, 0);
     text-align: center;
 }
 
 h2 {
     font-size: 1.5em;
-    color: rgba(201, 96, 21, 0.849);
+    color: rgb(136, 0, 0);
     text-align: center;
 }
 
@@ -42,7 +48,7 @@ a {
     font-size: 1.0em;
     text-decoration: none;
     font-weight: bold;
-    color: rgb(153, 88, 14);
+    color: rgb(0, 8, 116);
 }
 
 a:hover {
@@ -73,6 +79,7 @@ p.negrito {
 
 h3 {
     text-align: center;
+    color: rgb(136, 0, 0);
 }
 
 figcaption.ladoE {
@@ -96,14 +103,14 @@ a.Dad {
     font-size: 1.0em;
     text-decoration: none;
     font-weight: bold;
-    color: rgb(107, 75, 39);
+    color: rgb(0, 8, 116);
 }
 
 a.Site {
     font-size: 1.0em;
     text-decoration: none;
     font-weight: bold;
-    color: rgb(2, 100, 7);
+    color: rgb(124, 61, 10);
 }
 
 a.Movie {
