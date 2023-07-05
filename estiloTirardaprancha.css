@@ -50,31 +50,32 @@ h4 {
 }
 
 figcaption.ladoE {
-    font-size: 0.85em;
+    font-size: 0.75em;
     float: left;
     color: rgb(88, 88, 88);
 }
 
 figcaption.ladoD {
-    font-size: 0.85em;
+    font-size: 0.75em;
     float: right;
     color: rgb(88, 88, 88);
 }
 
 a.ladoD {
-    color: rgb(1, 99, 14);
+    color: rgb(136, 0, 0);
     font-size: 1.0em; 
     float: right;
 }
 
 a.ladoE {
-    color: rgb(1, 99, 14);
+    color: rgb(136, 0, 0);
     font-size: 1.0em; 
 }
 
 p {
     color: rgb(66, 29, 2);
     font-size: 1.0em;
+    text-align: center;
 }
 
 img.ladoD {
@@ -86,5 +87,9 @@ img.ladoE {
 }
 
 em {
+    font-size: 1.0em;
+}
+
+strong {
     font-size: 1.0em;
 }

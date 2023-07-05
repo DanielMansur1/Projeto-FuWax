@@ -6,7 +6,7 @@
 body {
     background-image: url("imagens/fundo\ 1.4\ blur.jpeg"), url("imagens/fundo\ 1.5\ blur.jpeg"), url("imagens/fundo\ 1.2\ blur.jpeg"), url("imagens/fundo\ 1.1\ blur.jpeg"), url("imagens/fundo\ 1.3\ blur.jpeg");
     background-repeat: no-repeat;
-    background-position: 100% 0%, 82% 26%, 100% 52%, 85% 78.05%, 0% 100.20%;
+    background-position: 100% 0%, 82% 24.75%, 100% 49.53%, 85% 78.17%, 0% 100.30%;
 }
 
 main {
@@ -58,7 +58,6 @@ a:hover {
 
 u {
     font-size: 1.0em;
-    color: rgb(128, 60, 11)
 }
 
 figcaption.ladoD {

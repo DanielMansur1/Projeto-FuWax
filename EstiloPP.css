@@ -31,20 +31,8 @@ h2 {
 
 h3 {
     font-size: 1.2em;
-    color: rgba(46, 46, 46, 0.849);
     text-align: center;
-}
-
-h3.verde {
-    font-size: 1.2em;
-    color: rgb(0, 112, 0);
-    text-align: center;
-}
-
-h3.azul {
-    font-size: 1.2em;
-    color: rgb(0, 131, 131);
-    text-align: center;
+    color: rgb(128, 70, 28);
 }
 
 figcaption {
@@ -55,24 +43,24 @@ figcaption {
 
 figcaption.ladoD {
     float: right;
-    color: rgb(26, 26, 26);
     font-size: 0.75em;
+    color: rgb(26, 26, 26);
 }
 
 figcaption.ladoE {
-    float: left;
-    font-size: 0,75em;
+    font-size: 0.75em;
     color: rgb(26, 26, 26);
 }
 
-a {
-    color: rgba(148, 67, 0, 0.753);
+a.ladoE {
+    color: rgb(136, 0, 0);
     font-size: 1.0em; 
 }
 
-u.grande {
-    font-size: 0.9em;
-    color: rgb(128, 60, 11)
+a.ladoD {
+    color: rgb(136, 0, 0);
+    font-size: 1.0em; 
+    float: right;
 }
 
 img.ladoE {
@@ -85,4 +73,14 @@ img.ladoD {
 
 em {
     font-size: 1.0em;
+}
+
+p {
+    color: rgb(66, 29, 2);
+    font-size: 1.0em;
+    text-align: center;
+}
+
+strong {
+    font-size: 0.8em;
 }

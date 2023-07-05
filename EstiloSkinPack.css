@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: rgba(35, 107, 79, 0.911);
+    background-color: rgb(38, 72, 122);
 }
 
 main {
@@ -18,7 +18,7 @@ main {
 
 h1 {
     font-size: 2em;
-    color: rgba(56, 119, 95, 0.911);
+    color: rgb(14, 90, 14);
     text-align: center;
 }
 
@@ -30,7 +30,7 @@ figcaption.ladoD {
 
 figcaption.ladoE {
     font-size: 0.8em;
-    color: rgb(20, 74, 155); 
+    color: rgb(38, 72, 122); 
     float: left;  
 }
 
@@ -52,20 +52,21 @@ img.centro {
     text-align: center;
 }
 
-u.titulo {
-    font-size: 1.0em;
-    color: rgba(52, 100, 82, 0.911);
-}
-
 p.centro {
     text-align: center;
     color: white;
 }
 
-a {
-    color: rgba(35, 107, 79, 0.911);
-}
-
 em {
     font-size: 1.0em;
+}
+
+u.cool {
+    font-size: 0.95em;
+    color: rgb(38, 72, 122)
+}
+
+u.sc {
+    font-size: 0.95em;
+    color: rgb(14, 90, 14);
 }
