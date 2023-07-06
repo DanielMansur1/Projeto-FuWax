@@ -12,7 +12,7 @@ body {
 }
 
 main {
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.856);
     min-width: 675px;
     max-width: 675px;
     margin: auto;
