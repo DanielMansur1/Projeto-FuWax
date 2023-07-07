@@ -137,18 +137,22 @@ figcaption.centro {
     text-align: center;
 }
 
+@media (max-widht: 479px) {
+    
+}
+
 /* 480px - 768px = tablet */
-@media (min-widht: 480px) {
+@media (min-widht: 480px) and (max-widht: 768px) {
 
 }
 
 /* 768px - 1024px = telas menores, laptops */
-@media (min-widht: 768px) {
+@media (min-widht: 768px) and (max-widht: 1024px) {
 
 }
 
 /* 1024px - 1200px = desktop */
-@media (min-widht: 1024px) {
+@media (min-widht: 1024px) and (max-widht: 1200px) {
 
 }
 
