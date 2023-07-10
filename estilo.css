@@ -5,7 +5,9 @@
 
 body {
     margin: auto;
+    width: 100%;
     background-image: url("imagens/fundo\ 1.4\ blur.jpeg"), url("imagens/fundo\ 1.5\ blur.jpeg"), url("imagens/fundo\ 1.2\ blur.jpeg"), url("imagens/fundo\ 1.1\ blur.jpeg"), url("imagens/fundo\ 1.3\ blur.jpeg");
+    width: 100%;
     background-repeat: no-repeat;
     background-position: 100% 0%, 82% 24.75%, 100% 49.53%, 85% 78.17%, 0% 100.30%;
 }
@@ -16,6 +18,7 @@ main {
     max-width: 700px;
     margin: auto;
     padding: 10px;
+    width: 100%;
     box-shadow: 15px 15px 15px rgba(134, 65, 0, 0.534);
 }
 
@@ -135,6 +138,20 @@ figcaption.centro {
     font-size: 0.8em;
     color: rgb(0, 0, 0);
     text-align: center;
+}
+
+.container {
+    width: 100%;
+}
+
+@media (max-widht: 498px) {
+    .img-va {
+        display: none;
+    }
+    
+    .img-vd {
+        display: block;
+    }
 }
 
 @media (max-widht: 479px) {
