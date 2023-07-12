@@ -3,6 +3,7 @@
     font-size: 16px;
 }
 
+/* Corpo */
 body {
     width: 100%;
     background-image: url("imagens/fundo\ 1.4\ blur.jpeg"), url("imagens/fundo\ 1.5\ blur.jpeg"), url("imagens/fundo\ 1.2\ blur.jpeg"), url("imagens/fundo\ 1.1\ blur.jpeg"), url("imagens/fundo\ 1.3\ blur.jpeg");
@@ -19,15 +20,17 @@ main {
     width: 100%;
     box-shadow: 15px 15px 15px rgba(134, 65, 0, 0.534);
 }
+/* ----------------------------------------------------- */
 
+/* Tipos de texto */
 em {
-    font-size: 1.0em;
+    font-size: 1.5em;
     color: rgb(136, 0, 0);
     text-align: center;
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 1.5em;
     color: rgb(148, 0, 0);
     text-align: center;
 }
@@ -38,48 +41,17 @@ h2 {
     text-align: center;
 }
 
-img.ladoD {
-    float: right;
+h3 {
+    text-align: center;
+    color: rgb(136, 0, 0);
 }
 
-img.ladoE {
-    float: left;
-}
-
-.img-b {
-    width: 100%;
-}
-
-.img-cDireita {
-    width: auto;
-    float: right;
-}
-
-.img-cEsquerda {
-    width: auto;
-    float: left;
-}
-
-a {
-    font-size: 1.0em;
-    text-decoration: none;
-    font-weight: bold;
-    color: rgb(0, 8, 116);
-}
-
-a:hover {
-    text-decoration: underline;
-    color: rgb(156, 91, 44);
+h4 {
+    text-align: center;
 }
 
 u {
     font-size: 1.0em;
-}
-
-figcaption.ladoD {
-    font-size: 0.8em;
-    color: rgb(0, 0, 0);
-    float: right;
 }
 
 p {
@@ -92,9 +64,14 @@ p.negrito {
     font-size: 0.8em;
 }
 
-h3 {
-    text-align: center;
-    color: rgb(136, 0, 0);
+p.ladoE {
+    float: left;
+}
+
+figcaption.ladoD {
+    font-size: 0.8em;
+    color: rgb(0, 0, 0);
+    float: right;
 }
 
 figcaption.ladoE {
@@ -103,8 +80,45 @@ figcaption.ladoE {
     float: left;
 }
 
-p.ladoE {
+figcaption.centro {
+    font-size: 0.8em;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+/* ---------------------- */
+
+/* imagens */
+img.ladoD {
+    float: right;
+}
+
+img.ladoE {
     float: left;
+}
+
+.img-b {
+    width: 100%;
+}
+/* -------------------- */
+
+/* Dando errado (Segunda imagem) */
+.img-cDireita {
+    width: auto;
+    float: right;
+}
+
+.img-cEsquerda {
+    width: auto;
+    float: left;
+}
+/* ----------------------------- */
+
+/* Links */
+a {
+    font-size: 1.0em;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(0, 8, 116);
 }
 
 a.Son {
@@ -142,16 +156,15 @@ a.caminho {
     color: rgba(2, 71, 150, 0.5);
 }
 
-h4 {
-    text-align: center;
-}
 
-figcaption.centro {
-    font-size: 0.8em;
-    color: rgb(0, 0, 0);
-    text-align: center;
+a:hover {
+    text-decoration: underline;
+    color: rgb(156, 91, 44);
 }
+/* ------------------------------ */
 
+/* Box */
 .container {
     width: 100%;
 }
+/* -------------- */
