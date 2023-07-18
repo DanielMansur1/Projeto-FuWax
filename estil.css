@@ -6,6 +6,8 @@
 body {
     background-color: rgb(0, 81, 95);
     background-image: url("fundo\ 1.6\ blur.jpeg");
+    background-size: cover;
+    background-position: center;
 }
 
 main {
