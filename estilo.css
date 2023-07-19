@@ -78,7 +78,7 @@ figcaption.ladoD {
 
 figcaption.ladoE {
     font-size: 0.8em;
-    color: rgb(0, 0, 0);
+    color: rgba(0, 0, 0, 0.692);
     float: left;
 }
 
@@ -97,24 +97,14 @@ img.ladoD {
 
 img.ladoE {
     float: left;
+    border: 2px solid black;
 }
 
 .img-b {
     width: 100%;
+    border: 2px solid black;
 }
 /* -------------------- */
-
-/* Dando errado (Segunda imagem) */
-.img-cDireita {
-    width: auto;
-    float: right;
-}
-
-.img-cEsquerda {
-    width: auto;
-    float: left;
-}
-/* ----------------------------- */
 
 /* Links */
 a {
@@ -149,9 +139,37 @@ a:hover {
 
 /* Media query */
 
-@media (max-width: 600px) {
+@media (max-width: 549px) {
     .container-fig {
-        font-size: min(1.4em);
+        font-size: min(1.45em);
         
+    }
+    .container-figG {
+        font-size: min(1.35em);
+    }
+    .container-h2 {
+        font-size: min(1.4em);
+    }
+    .container-img {
+        font-size: 100%;
+        text-align: center;
+    }
+    .container-550px {
+        display: none;
+    }
+    .container-549px {
+        display: block;
+    }
+    p {
+        font-size: 1.5em;
+    }
+}
+
+@media (min-width: 550px) {
+    .container-549px {
+        display: none;
+    }
+    .container-550px {
+        display: block;
     }
 }
