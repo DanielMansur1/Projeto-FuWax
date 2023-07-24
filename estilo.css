@@ -144,22 +144,41 @@ a:hover {
         font-size: min(1.45em);
         
     }
+
     .container-figG {
         font-size: min(1.35em);
     }
+
     .container-h2 {
         font-size: min(1.4em);
     }
+
     .container-img {
         font-size: 100%;
         text-align: center;
     }
+
     .container-550px {
         display: none;
     }
+
     .container-549px {
         display: block;
+        border: 2px solid black;
     }
+
+    .container-ladoD {
+        display: block;
+        float: right;
+        border: 2px solid black;
+    }
+
+    .container-ladoE {
+        display: block;
+        float: left;
+        border: 2px solid black;
+    }
+
     p {
         font-size: 1.5em;
     }
@@ -169,7 +188,16 @@ a:hover {
     .container-549px {
         display: none;
     }
+
     .container-550px {
         display: block;
+    }
+
+    .container-ladoD {
+        display: none;
+    }
+
+    .container-ladoE {
+        display: none;
     }
 }
