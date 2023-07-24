@@ -140,17 +140,9 @@ a:hover {
 /* Media query */
 
 @media (max-width: 549px) {
+
     .container-fig {
-        font-size: min(1.45em);
-        
-    }
-
-    .container-figG {
         font-size: min(1.35em);
-    }
-
-    .container-h2 {
-        font-size: min(1.4em);
     }
 
     .container-img {
@@ -162,21 +154,19 @@ a:hover {
         display: none;
     }
 
-    .container-549px {
+    .container-centro {
         display: block;
-        border: 2px solid black;
+        text-align: center;
     }
 
     .container-ladoD {
         display: block;
         float: right;
-        border: 2px solid black;
     }
 
     .container-ladoE {
         display: block;
         float: left;
-        border: 2px solid black;
     }
 
     p {
@@ -185,7 +175,7 @@ a:hover {
 }
 
 @media (min-width: 550px) {
-    .container-549px {
+    .container-centro {
         display: none;
     }
 
