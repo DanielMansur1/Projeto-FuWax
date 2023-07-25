@@ -1,11 +1,11 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-family: arial, helvetica, sans-serif;
 }
 
 /* Corpo */
 body {
     width: 100%;
+    height: 100%;
     background-image: url("imagens/fundo\ 1.4\ blur.jpeg");
     background-repeat: no-repeat;
     background-position: 100% 0%;
@@ -128,6 +128,10 @@ a:hover {
 /* ------------------------------ */
 
 /* Box */
+.container-filho1 {
+    width: 100%;
+}
+
 .container {
     width: 100%;
 }
@@ -140,9 +144,13 @@ a:hover {
 /* Media query */
 
 @media (max-width: 549px) {
-
     .container-fig {
-        font-size: min(1.35em);
+        display: none;
+    }
+
+    .container-figG {
+        font-size: 1.35em;
+        color: rgba(0, 0, 0, 0.459);
     }
 
     .container-img {
@@ -162,6 +170,7 @@ a:hover {
     .container-ladoD {
         display: block;
         float: right;
+
     }
 
     .container-ladoE {
@@ -169,12 +178,25 @@ a:hover {
         float: left;
     }
 
+    .container-espaço {
+        display: block;
+    }
+
+    .container-lateral {
+        margin: 35px;
+        display: block;
+    }
+
     p {
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
 }
 
 @media (min-width: 550px) {
+    .container-lateral {
+        margin: 0;
+    }
+
     .container-centro {
         display: none;
     }
@@ -189,5 +211,17 @@ a:hover {
 
     .container-ladoE {
         display: none;
+    }
+
+    .container-espaço {
+        display: none;
+    }
+
+    .container-549px {
+        display: none;
+    }
+
+    .container-free {
+        display: block;
     }
 }
