@@ -143,22 +143,29 @@ a:hover {
 
 /* Media Querys */
 @media (max-width: 549px) {
+    figcaption.ladoD {
+        float: right;
+        font-size: 1.35em;
+        color: rgba(0, 0, 0, 0.459);
+    }
+
     .container-fig {
         display: none;
     }
 
     .container-figGD {
-        display: block;
         font-size: 1.35em;
         color: rgba(0, 0, 0, 0.459);
-        margin: 35px;
+        float: right;
+        margin-right: 54px;
     }
 
     .container-figGE {
         font-size: 1.35em;
-        color: rgba(0, 0, 0, 0.459);
-        margin: 50px;
-        display: block;
+        color: rgba(0, 0, 0, 0.61);
+        float: left;
+        margin-left: 68px;
+        border: 2.5px solid rgb(136, 0, 0);
     }
 
     .container-figGC {
@@ -168,9 +175,17 @@ a:hover {
         display: block;
     }
 
-    .container-img {
-        font-size: 100%;
+    .container-img-549px img {
         text-align: center;
+        border: 3px solid black;
+    }
+
+    .container-img-550px {
+        display: none;
+    }
+
+    .container-borda {
+        border: 3px solid black;
     }
 
     .container-550px {
@@ -182,15 +197,29 @@ a:hover {
         text-align: center;
     }
 
+    .container-centro img {
+        border: 4.5px solid black;
+    }
+
     .container-ladoD {
-        display: block;
         float: right;
-        font-size: 14.10px;
+        padding-right: 40px;
+        padding-left: 15px;
+    }
+
+    .container-ladoD img {
+        border: 4.5px solid black;
     }
 
     .container-ladoE {
         display: block;
         float: left;
+        padding-left: 40px;
+        padding-right: 15px;
+    }
+
+    .container-ladoE img {
+        border: 4.5px solid black;
     }
 
     .container-espaço {
@@ -201,20 +230,65 @@ a:hover {
         margin: 35px;
     }
 
-    .container-lateral {
-        margin: 35px;
-        display: block;
-        font-size: 1.02em;
+    .container-lateralE {
+        padding-left: 15px;
+    }
+
+    .container-lateralD {
+        padding-right: 15px;
+    }
+
+    .container-549px-video iframe {
+        border: 3px solid black;
+        width: 80%;
+    }
+
+    .container-550px-video {
+        display: none;
     }
 
     p {
-        font-size: 1.3em;
+        font-size: 1.4em;
+    }
+
+    .container-filho3-549px {
+        font-size: 1.20em;
+    }
+
+    .container-filho2-549px {
+        font-size: 1.25em;
     }
 }
 
 @media (min-width: 550px) {
-    .container-lateral {
-        margin: 0;
+    .container-550px-video iframe {
+        border: 3.5px solid black;
+    }
+
+    .container-filho3-549px {
+        display: none;
+    }
+
+    .container-filho2-549px {
+        display: none;
+    }
+
+    .container-549px-video {
+        display: none;
+    }
+
+    .container-img-549px {
+        display: none;
+    }
+
+    .container-img-550px img{
+        text-align: center;
+        border: 3px solid black;
+    }
+
+    .container-lateralE {
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .container-centro {
