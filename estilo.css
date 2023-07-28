@@ -111,7 +111,7 @@ a {
     font-size: 1.0em;
     text-decoration: none;
     font-weight: bold;
-    color: rgb(124, 61, 10);
+    color: rgb(172, 54, 54);
 }
 
 a.fig {
@@ -155,29 +155,43 @@ a:hover {
 
     .container-figGD {
         font-size: 1.35em;
-        color: rgba(0, 0, 0, 0.459);
+        color: rgb(255, 255, 255);
         float: right;
-        margin-right: 54px;
+        margin-right: 51px;
+        border: 4px solid rgb(136, 0, 0);
+        background: rgb(0, 0, 0);
     }
 
     .container-figGE {
         font-size: 1.35em;
-        color: rgba(0, 0, 0, 0.61);
+        color: rgb(255, 255, 255);
         float: left;
         margin-left: 68px;
-        border: 2.5px solid rgb(136, 0, 0);
+        background: #000000;
+        border: 3px solid rgb(136, 0, 0);
     }
 
     .container-figGC {
-        text-align: center;
+        margin-left: 25%;
+        margin-right: 24.02%;
         font-size: 1.15em;
-        color: rgba(0, 0, 0, 0.459);
-        display: block;
+        color: rgb(255, 255, 255);
+        background: #000000;
+        border: 3px solid rgb(136, 0, 0);
+    }
+
+    .container-figGC2{
+        margin-left: 25%;
+        margin-right: 23%;
+        font-size: 1.15em;
+        color: rgb(255, 255, 255);
+        background: #000000;
+        border: 3px solid rgb(136, 0, 0);
     }
 
     .container-img-549px img {
         text-align: center;
-        border: 3px solid black;
+        border: 5px solid black;
     }
 
     .container-img-550px {
@@ -198,7 +212,7 @@ a:hover {
     }
 
     .container-centro img {
-        border: 4.5px solid black;
+        border: 5px solid rgb(0, 0, 0);
     }
 
     .container-ladoD {
@@ -219,7 +233,7 @@ a:hover {
     }
 
     .container-ladoE img {
-        border: 4.5px solid black;
+        border: 4.5px solid rgb(0, 0, 0);
     }
 
     .container-espaço {
@@ -261,6 +275,10 @@ a:hover {
 }
 
 @media (min-width: 550px) {
+    .container-550px {
+        display: block;
+    }
+
     .container-550px-video iframe {
         border: 3.5px solid black;
     }
