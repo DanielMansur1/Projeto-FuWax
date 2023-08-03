@@ -168,6 +168,18 @@ a:hover {
         display: none;
     }
 
+    .container-figLadoD2 {
+        display: none;
+    }
+
+    .container-figLadoD3 {
+        display: none;
+    }
+
+    .container-figLadoE2 {
+        display: none;
+    }
+
     .container-figGD {
         font-size: 1.35em;
         color: rgb(255, 255, 255);
@@ -186,6 +198,14 @@ a:hover {
     }
 
     .container-figLadoE {
+        display: none;
+    }
+
+    .container-figLadoE3 {
+        display: none;
+    }
+
+    .container-figLadoE4 {
         display: none;
     }
 
@@ -301,6 +321,10 @@ a:hover {
         display: block;
     }
 
+    .container-espaço2 {
+        display: none;
+    }
+
     .container-lateralE {
         padding-left: 15px;
     }
@@ -369,7 +393,13 @@ a:hover {
         float: right;
         text-align: center;
         font-size: 0.95em;
-        padding-right: 58px;
+        padding-right: 80px;
+    }
+
+    .container-figLadoD3 {
+        float: right;
+        font-size: 0.95em;
+        padding-right: 130px;
     }
 
     .container-figLadoE {
@@ -385,6 +415,16 @@ a:hover {
         display: block;
         float: left;
         padding-left: 140px;
+    }
+
+    .container-figLadoE3 {
+        color: #000000d2;
+        padding-left: 27px;   
+    }
+
+    .container-figLadoE4 {
+        color: #000000d2;
+        padding-left: 115px;
     }
 
     .container-figGD {
@@ -476,8 +516,7 @@ a:hover {
     }
 
     .container-lateralD {
-        padding-left: 0;
-        padding-right: 0;
+        display: none;
     }
 
     .container-filho2-549px {
