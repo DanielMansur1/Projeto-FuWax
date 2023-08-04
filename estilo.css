@@ -402,6 +402,12 @@ a:hover {
         padding-right: 130px;
     }
 
+    .container-figLadoD4 {
+        float: right;
+        font-size: 0.95em;
+        padding-right: 75px;
+    }
+
     .container-figLadoE {
         color: #000000d2;
         font-size: 0.95em;
@@ -474,6 +480,14 @@ a:hover {
     }
 
     .container-img-550px img {
+        border: 3px solid black;
+    }
+
+    .container-imgC-550px {
+        text-align: center;
+    }
+
+    .container-imgC-550px img {
         border: 3px solid black;
     }
 
