@@ -564,6 +564,10 @@ a:hover {
         display: none;
     }
 
+    .container-figGC5 {
+        display: none;
+    }
+
     figcaption.centro1 {
         font-size: 1.0em;
         color: rgba(255, 255, 255, 0.856);
