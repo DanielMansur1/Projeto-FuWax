@@ -479,10 +479,10 @@ a:hover {
         font-size: 0.95em;
         color: rgba(255, 255, 255, 0.856);
         float: right;
-        padding-top: 2px;
+        padding-top: 1px;
         padding-right: 3px;
         padding-left: 4px;
-        padding-bottom: 3px;
+        padding-bottom: 4px;
         background: black;
         border: 3px solid black;
     }
