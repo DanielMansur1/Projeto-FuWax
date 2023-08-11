@@ -93,3 +93,23 @@ em {
 strong {
     font-size: 1.0em;
 }
+
+@media (max-width: 736px) {
+    .container-736px {
+        display: block;
+    }
+
+    .container-737px {
+        display: none;
+    }
+}
+
+@media (min-width: 737px) {
+    .container-737px {
+        display: block;
+    }
+
+    .container-736px {
+        display: none;
+    }
+}

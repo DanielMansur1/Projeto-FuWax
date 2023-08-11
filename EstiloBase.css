@@ -42,3 +42,45 @@ strong {
 em {
     font-size: 1.0em;
 }
+
+@media (max-width: 529px) {
+    .container-529px {
+        display: block;
+    }
+
+    .container-530px {
+        display: none;
+    }
+
+    .container-697px {
+        display: none;
+    }
+}
+
+@media (min-width: 530px) {
+    .container-530px {
+        display: block;
+    }
+
+    .container-529px {
+        display: none;
+    }
+
+    .container-697px {
+        display: none;
+    }
+}
+
+@media (min-width: 697px) {
+    .container-697px {
+        display: block;
+    }
+
+    .container-529px {
+        display: none;
+    }
+
+    .container-530px {
+        display: none;
+    }
+}

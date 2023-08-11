@@ -17,7 +17,10 @@ main {
     min-width: 700px;
     max-width: 700px;
     margin: auto;
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     width: 100%;
     box-shadow: 15px 15px 15px rgba(6, 123, 177, 0.61);
 }
@@ -28,6 +31,11 @@ h1 {
     font-size: 2em;
     color: rgb(46, 2, 2);
     text-align: center;
+    margin-bottom: 45px;
+}
+
+h1.linha {
+    margin-top: -8px;
 }
 
 h2 {
@@ -44,59 +52,70 @@ em {
 /* imagens */
 img.ladoD {
     float: right;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+img.ladoD-740px {
+    float: right;
+    margin-top: -10%;
+    margin-right: 25%;
 }
 
 img.ladoE {
     float: left;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+img.ladoE-740px {
+    float: left;
+    margin-top: -68px;
+    margin-left: 25%;
+}
+
+img.back-740px {
+    margin-left: 10%;
+}
+
+img.back-741-850px {
+    margin-top: -10%;
+    margin-left: 10px;
 }
 /* ---------------------- */
 
 /* Links */
 a {
     text-decoration: none;
-    font-weight: bold;
-    color: rgb(24, 24, 163);
 }
 
 a.Cold {
-    text-decoration: none;
     font-size: 1.0em;
-    font-weight: bold;
     color: rgba(179, 39, 39, 0.904);
 }
 
 a.Cool {
-    text-decoration:none ;
     font-size: 1.0em;
-    font-weight: bold;
     color: blue;
 }
 
 a.SummerCool {
-    text-decoration: none;
     font-size: 1.0em;
-    font-weight: bold;
     color: rgb(0, 107, 0);
 }
 
 a.Warm {
-    text-decoration: none;
     font-size: 1.0em;
-    font-weight: bold;
     color: rgb(204, 204, 0);
 }
 
 a.Tropical {
-    text-decoration: none;
     font-size: 1.0em;
-    font-weight: bold;
     color: rgb(226, 123, 4);
 }
 
 a.BaseCoat {
-    text-decoration: none;
     font-size: 1.0em;
-    font-weight: bold;
     color: rgb(145, 22, 6);
 }
 
@@ -104,14 +123,15 @@ a:hover {
     text-decoration: underline;
     color: rgb(57, 56, 65);
 }
+
 /* -------------------- */
 
-@media (max-width: 715px) {
-    .container-715px {
+@media (max-width: 740px) {
+    .container-740px {
         display: block;
     }
 
-    .container-716px {
+    .container-741px {
         display: none;
     }
 
@@ -125,28 +145,35 @@ a:hover {
 
     main {
         box-shadow: none;
+        width: 100%;
     }
 }
 
-@media (min-width: 716px) {
-    .container-716px {
+@media (min-width: 741px) {
+    .container-741px {
         display: block;
+    }
+
+    .container-740px {
+        display: none;
     }
 
     .container-850px {
         display: none;
     }
 
-    .container-715px {
-        display: none;
-    }
-
     body {
+        width: 100%;
+        height: 100%;
         background-image: none;
+        background-repeat: none;
+        background-position: none;
+        background-position: none;
+        background-color: rgba(6, 123, 177, 0.61);
     }
 
     main {
-        box-shadow: none;
+        box-shadow: 15px 15px 15px rgba(6, 123, 177, 0.61);
     }
 
 }
@@ -156,20 +183,23 @@ a:hover {
         display: block;
     }
 
-    .container-715px {
+    .container-740px {
         display: none;
     }
 
-    .container-716px {
+    .container-741px {
         display: none;
     }
 
     body {
+        width: 100%;
+        height: 100%;
         background-image: block;
-    }
-
-    main {
-        box-shadow: block;
+        background-image: url("fundo\ 1.6\ blur.jpeg");
+        background-repeat: no-repeat;
+        background-position: 100% 0%;
+        background-position: center;
+        background-color: none;
     }
 
 }

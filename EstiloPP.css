@@ -84,3 +84,23 @@ p {
 strong {
     font-size: 0.8em;
 }
+
+@media (max-width: 756px) {
+    .container-756px {
+        display: block;
+    }
+
+    .container-757px {
+        display: none;
+    }
+}
+
+@media (min-width: 757px) {
+    .container-757px {
+        display: block;
+    }
+
+    .container-756px {
+        display: none;
+    }
+}

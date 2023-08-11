@@ -70,3 +70,45 @@ u.sc {
     font-size: 0.95em;
     color: rgb(14, 90, 14);
 }
+
+@media (max-width: 740px) {
+    .container-740px {
+        display: block;
+    }
+
+    .container-741px {
+        display: none;
+    }
+
+    .container-787px {
+        display: none;
+    }
+}
+
+@media (min-width: 741px) {
+    .container-741px {
+        display: block;
+    }
+
+    .container-740px {
+        display: none;
+    }
+
+    .container-787px {
+        display: none;
+    }
+}
+
+@media (min-width: 787px) {
+    .container-787px {
+        display: block;
+    }
+
+    .container-740px {
+        display: none;
+    }
+
+    .container-741px {
+        display: none;
+    }
+}
