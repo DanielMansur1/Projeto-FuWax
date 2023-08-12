@@ -23,7 +23,7 @@ main {
 
 h1 {
     font-size: 2em;
-    color: rgb(128, 60, 11);
+    color: rgb(136, 0, 0);
     text-align: center;
 }
 
@@ -35,7 +35,7 @@ h2 {
 h3 {
     font-size: 1.2em;
     text-align: center;
-    color: rgb(128, 70, 28);
+    color: rgb(128, 34, 34);
 }
 
 figcaption {
