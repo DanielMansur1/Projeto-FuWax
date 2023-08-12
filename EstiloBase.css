@@ -1,13 +1,9 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
 }
 
 body {
     background-color: rgba(226, 0, 0, 0.911);
-    background-image: url("Heitor\ Pereira\ Base\ Coat\ sem\ fundo.png");
-    background-repeat: no-repeat;
-    background-position: 0% 100%;
 }
 
 main {
@@ -55,6 +51,28 @@ em {
     .container-697px {
         display: none;
     }
+
+    body {
+        background-color: white;
+    }
+
+    main {
+        min-width: 300px;
+        box-shadow: none;
+    }
+
+    em {
+        font-size: 1.3em;
+    }
+
+    p {
+        color: black;
+        border: 3px solid black;
+        background-color: rgba(226, 0, 0, 0.911);
+        padding: 5px;
+        text-align: center;
+        font-size: 1.1em;
+    }
 }
 
 @media (min-width: 530px) {
@@ -69,6 +87,43 @@ em {
     .container-697px {
         display: none;
     }
+
+    body {
+        background-color: white;
+    }
+
+    main {
+        background-color: rgb(255, 255, 255);
+        min-width: 660px;
+        max-width: 660px;
+        margin: auto;
+        padding: 10px;
+        box-shadow: none;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    h1.linha {
+        margin-top: -10px;
+    }
+
+    p {
+        color: black;
+        border: 4px solid black;
+        background-color: rgba(226, 0, 0, 0.911);
+        padding: 5px;
+        margin-right: 15px;
+        margin-left: 15px;
+        text-align: center;
+        font-size: 1.3em;
+    }
+
+    img.back {
+        margin-left: 20px;
+        margin-top: -10px;
+    }
 }
 
 @media (min-width: 697px) {
@@ -82,5 +137,38 @@ em {
 
     .container-530px {
         display: none;
+    }
+
+    h1 {
+        font-size: 2.0em;
+    }
+
+    p {
+        color: black;
+        border: none;
+        background-color: white;
+        padding: none;
+        margin-right: none;
+        margin-left: none;
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+    img.back {
+        margin-left: 7px;
+        margin-top: -15px;
+    }
+
+    body {
+        background-color: rgba(226, 0, 0, 0.911);
+    }
+
+    main {
+        background-color: rgb(255, 255, 255);
+        min-width: 660px;
+        max-width: 660px;
+        margin: auto;
+        padding: 10px;
+        box-shadow: 15px 15px 15px rgb(0, 0, 0);
     }
 }

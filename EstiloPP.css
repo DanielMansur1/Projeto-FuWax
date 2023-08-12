@@ -1,12 +1,15 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
 }
 
 body {
     background-color: rgb(124, 61, 10);
     background-image: url("imagens/fundo\ 1.7\ blur.jpeg");
     background-position: 60%;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 main {
@@ -55,12 +58,14 @@ figcaption.ladoE {
 a.ladoE {
     color: rgb(136, 0, 0);
     font-size: 1.0em; 
+    text-decoration: none;
 }
 
 a.ladoD {
     color: rgb(136, 0, 0);
     font-size: 1.0em; 
     float: right;
+    text-decoration: none;
 }
 
 img.ladoE {
@@ -85,9 +90,27 @@ strong {
     font-size: 0.8em;
 }
 
-@media (max-width: 756px) {
-    .container-756px {
+@media (max-width: 449px) {
+    .container-449px {
         display: block;
+    }
+
+    .container-450px {
+        display: none;
+    }
+
+    .container-757px {
+        display: none;
+    }
+}
+
+@media (min-width: 450px) {
+    .container-450px {
+        display: block;
+    }
+
+    .container-449px {
+        display: none;
     }
 
     .container-757px {
@@ -100,7 +123,72 @@ strong {
         display: block;
     }
 
-    .container-756px {
+    .container-449px {
         display: none;
+    }
+
+    .container-450px {
+        display: none;
+    }
+
+    img {
+        border: 3px solid black;
+    }
+
+    img.back {
+        border: none;
+    }
+
+    figcaption.ladoE1-757px {
+        color: white;
+        font-size: 0.95em;
+        border: 3px solid black;
+        background-color: black;
+        padding-bottom: 2px;
+        padding-top: 1px;
+        padding-left: 2px;
+        padding-right: 2px;
+        margin-top: -4px;
+    }
+
+    figcaption.ladoE2-757px {
+        font-size: 0.95em;
+        border: 3px solid black;
+        background-color: black;
+        margin-top: -20px;
+        margin-left: 5em;
+        padding-bottom: 1px;
+        padding-top: 1px;
+        padding-left: 2px;
+        padding-right: 2px;
+        color: black;
+    }
+
+    figcaption.ladoD1-757px {
+        font-size: 0.95em;
+        color: white;
+        float: right;
+        border: 3px solid black;
+        background-color: black;
+        margin-top: -4px;
+        padding-bottom: 2px;
+        padding-top: 1px;
+        padding-left: 2px;
+        padding-right: 2px;
+        margin-right: -6px;
+    }
+
+    figcaption.ladoD2-757px {
+        font-size: 0.95em;
+        border: 3px solid black;
+        background-color: black;
+        margin-top: -14px;
+        margin-right: 10em;
+        padding-bottom: 1px;
+        padding-top: 1px;
+        padding-left: 2px;
+        padding-right: 2px;
+        color: black;
+        float: right;
     }
 }

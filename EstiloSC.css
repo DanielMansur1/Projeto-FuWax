@@ -1,13 +1,9 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
 }
 
 body {
     background-color: rgb(0, 206, 0);
-    background-image: url("Ícaro_Rodrigues_summer_cool\ sem\ fundo.png");
-    background-repeat: no-repeat;
-    background-position: 0% 100%;
 }
 
 main {
@@ -36,7 +32,7 @@ p {
 }
 
 a {
-    color: rgb(212, 212, 2);
+    color: rgb(243, 243, 37);
     font-size: 1.0em;
 }
 
@@ -49,7 +45,7 @@ em {
 }
 
 @media (max-width: 556px) {
-    .containe-556px {
+    .container-556px {
         display: block;
     }
 
@@ -59,6 +55,28 @@ em {
 
     .container-711px {
         display: none;
+    }
+
+    body {
+        background-color: white;
+    }
+
+    main {
+        min-width: 300px;
+        box-shadow: none;
+    }
+
+    em {
+        font-size: 1.3em;
+    }
+
+    p {
+        color: rgb(15, 15, 15);
+        border: 3px solid rgb(0, 7, 70);
+        background-color: rgb(0, 206, 0);
+        padding: 5px;
+        text-align: center;
+        font-size: 1.1em;
     }
 }
 
@@ -74,6 +92,47 @@ em {
     .container-711px {
         display: none;
     }
+
+    body {
+        background-color: white;
+    }
+
+    main {
+        background-color: white;
+        min-width: 675px;
+        max-width: 675px;
+        margin: auto;
+        padding: 10px;
+        box-shadow: none; 
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    h1.linha {
+        margin-top: -10px;
+    }
+
+    p {
+        color: rgb(15, 15, 15);
+        border: 4px solid rgb(0, 7, 70);
+        background-color: rgb(0, 206, 0);
+        padding: 5px;
+        text-align: center;
+        font-size: 1.3em;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    img.back {
+        margin-left: 20px;
+        margin-top: -10px;
+    }
+
+    a {
+        text-decoration: none;
+    }
 }
 
 @media (min-width: 711px) {
@@ -87,5 +146,38 @@ em {
 
     .container-557px {
         display: none;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        color: rgb(15, 15, 15);
+        font-size: 1.2em;
+        border: none;
+        background-color: white;
+        padding: none;
+        margin-left: none;
+        margin-right: none;
+        text-align: center;
+    }
+
+    img.back {
+        margin-left: 7px;
+        margin-top: -15px;
+    }
+
+    body {
+        background-color: rgb(0, 206, 0);
+    }
+
+    main {
+        background-color: white;
+        min-width: 675px;
+        max-width: 675px;
+        margin: auto;
+        padding: 10px;
+        box-shadow: 15px 15px 15px rgb(0, 7, 70);
     }
 }
