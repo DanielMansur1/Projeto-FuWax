@@ -36,7 +36,6 @@ figcaption.ladoE {
 
 figcaption.centro {
     font-size: 0.8em;
-    color: rgb(94, 94, 94);
     text-align: center;
 }
 
@@ -71,31 +70,204 @@ u.sc {
     color: rgb(14, 90, 14);
 }
 
-@media (max-width: 740px) {
-    .container-740px {
+@media (max-width: 599px) {
+    .container-599px {
         display: block;
     }
 
-    .container-741px {
+    .container-600px {
         display: none;
     }
 
     .container-787px {
         display: none;
+    }
+
+    body {
+        background-color: black;
+    }
+
+    main {
+        background-color: rgb(0, 0, 0);
+        min-width: 350px;
+        max-width: 599px;
+        margin: auto;
+        padding: 10px;
+        box-shadow: none;
+    }
+
+    h1.titulo-599px {
+        font-size: 1.5em;
+        color: rgba(39, 75, 129, 0.822);
+    }
+
+    figcaption.centro {
+        text-align: center;
+        margin-top: -3em;
+    }
+
+    a.cool {
+        font-size: 1.3em;
+        color: rgb(39, 75, 129);
+        text-decoration: none; 
+    }
+
+    a.sc {
+        font-size: 1.3em;
+        color: rgb(14, 90, 14);
+        text-decoration: none;
+    }
+
+    p.txt1 {
+        color: rgba(255, 255, 255, 0.774);
+        margin-left: 1.3em;
+        margin-right: 1.3em;
+        border: 3px solid rgba(39, 75, 129, 0.61);
+        padding: 5px;
+        background-color: rgba(37, 29, 29, 0.575);
+        text-align: center;
+        margin-bottom: 3em;
+    }
+
+    p.txt2 {
+        color: rgba(255, 255, 255, 0.774);
+        margin-left: 1.3em;
+        margin-right: 1.3em;
+        border: 3px solid rgba(39, 75, 129, 0.61);
+        padding: 5px;
+        background-color: rgba(37, 29, 29, 0.575);
+        text-align: center;
+        margin-top: 4em;
+    }
+
+    p.txt3 {
+        color: rgba(255, 255, 255, 0.774);
+        margin-left: 1.3em;
+        margin-right: 1.3em;
+        border: 3px solid rgba(14, 90, 14, 0.61);
+        padding: 5px;
+        background-color: rgba(37, 29, 29, 0.575);
+        text-align: center;
+    }
+
+    p.txt4 {
+        color: rgba(255, 255, 255, 0.774);
+        margin-left: 1.3em;
+        margin-right: 1.3em;
+        border: 3px solid rgba(14, 90, 14, 0.61);
+        padding: 5px;
+        background-color: rgba(37, 29, 29, 0.575);
+        text-align: center;
+    }
+
+    a.cool3 {
+        color: rgb(14, 90, 14);
+    }
+
+    img.back {
+        margin-left: 1em;
     }
 }
 
-@media (min-width: 741px) {
-    .container-741px {
+@media (min-width: 600px) {
+    .container-600px {
         display: block;
     }
 
-    .container-740px {
+    .container-599px {
         display: none;
     }
 
     .container-787px {
         display: none;
+    }
+
+    body {
+        background-color: black;
+    }
+
+    main {
+        background-color: rgb(0, 0, 0);
+        min-width: 750px;
+        max-width: 750px;
+        margin: auto;
+        padding: 10px;
+        box-shadow: none;
+    }
+
+    h1.titulo-600px {
+        font-size: 1.7em;
+    }
+
+    a.cool {
+        font-size: 1.3em;
+        color: rgb(39, 75, 129);
+        text-decoration: none; 
+        margin-left: 3.35em;   
+        border: 2px solid rgba(37, 29, 29, 0.575); 
+        padding: 4px;
+        background-color: rgba(37, 29, 29, 0.575);
+        box-shadow: -4px 4px 4px;
+    }
+
+    a.cool2 {
+        font-size: 1em;
+        color: rgb(39, 75, 129);
+        text-decoration: none;
+    }
+
+    a.sc {
+        font-size: 1.3em;
+        color: rgb(14, 90, 14);
+        text-decoration: none;
+        margin-right: 2.8em;
+        border: 2px solid rgba(37, 29, 29, 0.575);
+        padding: 4px;
+        background-color: rgba(37, 29, 29, 0.575);
+        box-shadow: 4px 4px 4px;
+    }
+
+    figcaption.ladoD {
+        margin-top: -20px;
+    }
+
+    figcaption.ladoE {
+        margin-top: -20px;
+    }
+
+    p.txt1 {
+        margin-left: 8%;
+        color: rgba(255, 255, 255, 0.774);
+        border: 3px solid rgb(39, 75, 129);
+        padding: 5px;
+        background-color: rgba(37, 29, 29, 0.575);
+        box-shadow: -2px -2px 2px rgb(39, 75, 129);
+        text-align: center;
+        float: left;
+    }
+
+    p.txt2 {
+        color: rgba(255, 255, 255, 0.774);
+        border: 3px solid rgb(14, 90, 14);
+        padding: 5px;
+        background-color: rgba(37, 29, 29, 0.575);
+        margin-top: 5.5em;
+        float: right;
+        text-align: center;
+        margin-right: 8%;
+        box-shadow: 2px -2px 2px rgb(14, 90, 14);
+    }
+
+    p.txt3 {
+        margin-top: 5.5em;
+        color: rgba(255, 255, 255, 0.774);
+        border: 3px solid rgb(39, 75, 129);
+        margin-left: 5%;
+        padding: 5px;
+        background-color: rgba(37, 29, 29, 0.575);
+        box-shadow: -2px 2px 2px rgb(39, 75, 129);
+        text-align: center;
+        float: left;
     }
 }
 
@@ -104,11 +276,11 @@ u.sc {
         display: block;
     }
 
-    .container-740px {
+    .container-599px {
         display: none;
     }
 
-    .container-741px {
+    .container-600px {
         display: none;
     }
 }
