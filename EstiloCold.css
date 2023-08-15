@@ -37,12 +37,12 @@ a.warm {
     
 }
 
-@media (max-width: 515px) {
-    .container-515px {
+@media (max-width: 599px) {
+    .container-599px {
         display: block;
     }
 
-    .container-516px {
+    .container-600px {
         display: none;
     }
 
@@ -55,7 +55,7 @@ a.warm {
     }
 
     main {
-        min-width: 300px;
+        min-width: 350px;
         box-shadow: none;
     }
 
@@ -73,12 +73,12 @@ a.warm {
     }
 }
 
-@media (min-width: 516px) {
-    .container-516px {
+@media (min-width: 600px) {
+    .container-600px {
         display: block;
     }
 
-    .container-515px {
+    .container-599px {
         display: none;
     }
 
@@ -141,11 +141,11 @@ a.warm {
         display: block;
     }
 
-    .container-515px {
+    .container-599px {
         display: none;
     }
 
-    .container-516px {
+    .container-600px {
         display: none;
     }
 

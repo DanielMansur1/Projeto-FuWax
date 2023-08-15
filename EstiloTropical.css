@@ -35,12 +35,12 @@ a {
     color: rgb(204, 204, 0);
 }
 
-@media (max-width: 555px) {
-    .container-555px {
+@media (max-width: 599px) {
+    .container-599px {
         display: block;
     }
 
-    .container-556px {
+    .container-600px {
         display: none;
     }
 
@@ -53,7 +53,7 @@ a {
     }
 
     main {
-        min-width: 300px;
+        min-width: 350px;
         box-shadow: none;
     }
 
@@ -71,12 +71,12 @@ a {
     }
 }
 
-@media (min-width: 556px) {
-    .container-556px {
+@media (min-width: 600px) {
+    .container-600px {
         display: block;
     }
 
-    .container-555px {
+    .container-599px {
         display: none;
     }
 
@@ -132,11 +132,11 @@ a {
         display: block;
     }
 
-    .container-555px {
+    .container-599px {
         display: none;
     }
 
-    .container-556px {
+    .container-600px {
         display: none;
     }
 
