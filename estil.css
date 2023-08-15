@@ -74,10 +74,6 @@ img.ladoE-740px {
     margin-left: 25%;
 }
 
-img.back-740px {
-    margin-left: 10%;
-}
-
 img.back-741-850px {
     margin-top: -10%;
     margin-left: 10px;
@@ -148,13 +144,51 @@ a:hover {
         box-shadow: none;
     }
 
-    h2.cold {
+    h2.tipos {
         margin-top: -2em;
+        margin-bottom: 3em;
     }
 
-    h2.cool {
-        
+    a.Cold {
+        border: 3px solid black;
+        padding: 5px;
+        box-shadow: -4px 4px 4px rgba(0, 8, 83, 0.863);
     }
+
+    a.Cool {
+        border: 3px solid black;
+        padding: 5px;
+        box-shadow: -4px 4px 4px rgb(0, 155, 216);
+    }
+
+    a.SummerCool {
+        border: 3px solid black;
+        padding: 5px;
+        box-shadow: -4px 4px 4px rgb(13, 26, 141);
+    }
+
+    a.Warm {
+        border: 3px solid black;
+        padding: 5px;
+        box-shadow: -4px 4px 4px rgb(211, 14, 0);
+    }
+
+    a.Tropical {
+        border: 3px solid black;
+        padding: 5px;
+        box-shadow: -4px 4px 4px rgb(226, 123, 4);
+    }
+
+    a.BaseCoat {
+        border: 3px solid black;
+        padding: 5px;
+        box-shadow: -4px 4px 4px rgba(226, 0, 0, 0.911);
+    }
+
+    img.back-600px {
+        margin-left: 5%;
+    }
+
 }
 
 @media (min-width: 600px) {
@@ -177,13 +211,99 @@ a:hover {
         background-repeat: none;
         background-position: none;
         background-position: none;
-        background-color: rgba(6, 123, 177, 0.61);
+        background-color: none;
     }
 
     main {
-        box-shadow: 15px 15px 15px rgba(6, 123, 177, 0.61);
+        box-shadow: none;
     }
 
+    h2.tipos1 {
+        margin-left: -18.1em;
+        margin-bottom: 2.5em;
+    }
+
+    a.Cold {
+        border: 3px solid black;
+        padding: 4px;
+        box-shadow: -4px 4px 4px rgba(0, 8, 83, 0.863);
+    }
+
+    h2.tipos2 {
+        margin-left: -18.1em;
+        margin-bottom: 2.5em;
+    }
+
+    a.Cool {
+        border: 3px solid black;
+        padding: 3px;
+        box-shadow: -4px 4px 4px rgb(0, 155, 216);
+    }
+
+    h2.tipos3 {
+        margin-top: -1.2em;
+        margin-bottom: 2.5em;   
+    }
+
+    a.SummerCool {
+        border: 3px solid black;
+        padding: 3px;
+        box-shadow: -4px 4px 4px rgb(13, 26, 141);
+    }
+
+    h2.tipos4 {
+        margin-top: -1.15em;
+    }
+
+    a.Warm {
+        border: 3px solid black;
+        padding: 3px;
+        box-shadow: -4px 4px 4px rgb(211, 14, 0);
+    }
+
+    h2.tipos5 {
+        float: right;
+        margin-top: -15.1em;
+        margin-right: 3.3em;
+    }
+
+    a.Tropical {
+        border: 3px solid black;
+        padding: 3px;
+        box-shadow: -4px 4px 4px rgb(226, 123, 4);
+    }
+
+    h2.tipos6 {
+        float: right;
+        margin-top: -2em;
+        margin-right: 2.8em;
+    }
+
+    a.BaseCoat {
+        border: 3px solid black;
+        padding: 3px;
+        box-shadow: -4px 4px 4px rgba(226, 0, 0, 0.911);
+    }
+
+    img.ladoE1-600px {
+        margin-left: 2em;
+    }
+
+    h1.meio1-600px {
+        margin-top: -19.5em;
+    }
+
+    h1.ladoD1-600px {
+        float: right;
+        margin-right: 1em;
+        margin-top: -18.42em;
+    }
+
+    h1.ladoD2-600px {
+        float: right;
+        margin-right: 1em;
+        margin-top: -8.57em;
+    }
 }
 
 @media (min-width: 850px) {
