@@ -377,9 +377,13 @@ strong {
         color: rgb(172, 54, 54, 0.747);
         text-decoration: none;
     }
+
+    a:hover {
+        text-decoration: underline;
+    }
 }
 
-@media (min-width: 737px) {
+@media (min-width: 757px) {
     .container-737px {
         display: block;
     }
