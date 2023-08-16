@@ -31,7 +31,7 @@ h1 {
     font-size: 2em;
     color: rgb(46, 2, 2);
     text-align: center;
-    margin-bottom: 45px;
+    margin-bottom: 1.5em;
 }
 
 h1.linha {
@@ -117,7 +117,6 @@ a.BaseCoat {
 
 a:hover {
     text-decoration: underline;
-    color: rgb(57, 56, 65);
 }
 
 /* -------------------- */
@@ -225,7 +224,7 @@ a:hover {
 
     a.Cold {
         border: 3px solid black;
-        padding: 4px;
+        padding: 3px;
         box-shadow: -4px 4px 4px rgba(0, 8, 83, 0.863);
     }
 
@@ -241,7 +240,7 @@ a:hover {
     }
 
     h2.tipos3 {
-        margin-top: -1.2em;
+        margin-top: -1.45em;
         margin-bottom: 2.5em;   
     }
 
@@ -252,7 +251,7 @@ a:hover {
     }
 
     h2.tipos4 {
-        margin-top: -1.15em;
+        margin-top: -1.3em;
     }
 
     a.Warm {
@@ -263,7 +262,7 @@ a:hover {
 
     h2.tipos5 {
         float: right;
-        margin-top: -15.1em;
+        margin-top: -15.02em;
         margin-right: 3.3em;
     }
 
@@ -276,7 +275,7 @@ a:hover {
     h2.tipos6 {
         float: right;
         margin-top: -2em;
-        margin-right: 2.8em;
+        margin-right: 2.78em;
     }
 
     a.BaseCoat {
@@ -290,19 +289,19 @@ a:hover {
     }
 
     h1.meio1-600px {
-        margin-top: -19.5em;
+        margin-top: -19.45em;
     }
 
     h1.ladoD1-600px {
         float: right;
         margin-right: 1em;
-        margin-top: -18.42em;
+        margin-top: -18.33em;
     }
 
     h1.ladoD2-600px {
         float: right;
         margin-right: 1em;
-        margin-top: -8.57em;
+        margin-top: -8.54em;
     }
 }
 
@@ -330,4 +329,88 @@ a:hover {
         background-color: none;
     }
 
+    main {
+        background-color: rgb(255, 255, 255);
+        min-width: 700px;
+        max-width: 700px;
+        margin: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 100%;
+        box-shadow: 15px 15px 15px rgba(6, 123, 177, 0.61);
+    }
+
+    h1.titulo {
+        margin-bottom: 1em;
+    }
+
+    h2.txt1-850px {
+        margin-top: -5.1em;
+        margin-left: -6.6em;
+    }
+
+    img.ladoD2-850px {
+        float: right;
+        margin-top: -8.2em;
+    }
+
+    h2.txt2-850px {
+        float: right;
+        margin-right: 1.17em;
+        margin-top: -2em;
+    }
+
+    a.Cool {
+        box-shadow: 4px 4px 4px rgb(0, 155, 216);
+    }
+
+    img.ladoE3-850px {
+        margin-top: 5em;
+    }
+
+    h2.txt3-850px {
+        margin-top: -5.2em;
+        margin-left: -6.5em;
+    }
+
+    img.ladoD4-850px {
+        float: right;
+        margin-top: -8.2em;
+    }
+
+    h2.txt4-850px {
+        float: right;
+        margin-top: -1.97em;
+        margin-right: 0.98em;
+    }
+
+    a.Warm {
+        box-shadow: 4px 4px 4px rgb(211, 14, 0);
+    }
+
+    img.ladoE5-850px {
+        margin-top: 5em;
+    }
+
+    h2.txt5-850px {
+        margin-top: -5em;
+        margin-left: -6.5em;
+    }
+
+    img.ladoD6-850px {
+        float: right;
+        margin-top: -8.2em;
+    }
+
+    h2.txt6-850px {
+        float: right;
+        margin-top: -2em;
+        margin-right: 1.5em;
+    }
+
+    a.BaseCoat {
+        box-shadow: 4px 4px 4px rgba(226, 0, 0, 0.911);
+    }
 }

@@ -143,6 +143,10 @@ a.warm {
     a.warm {
         text-decoration: none;
     }
+
+    a:hover {
+        text-decoration: underline;
+    }
 }
 
 @media (min-width: 701px) {
