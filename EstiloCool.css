@@ -61,10 +61,12 @@ a.warm {
 
     body {
         background-color: black;
-        margin-left: -1px;
     }
 
     main {
+        padding-left: 10px;
+        margin-right: -10px;
+        margin-left: -10px;
         min-width: 310px;
         max-width: 599px;
         box-shadow: none;

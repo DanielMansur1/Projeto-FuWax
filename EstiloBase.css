@@ -53,11 +53,14 @@ em {
     }
 
     body {
-        background-color: white;
-        margin-left: -1px;
+        background-color: black;
+        
     }
 
     main {
+        padding-left: 10px;
+        margin-right: -10px;
+        margin-left: -10px;
         min-width: 310px;
         max-width: 599px;
         box-shadow: none;
