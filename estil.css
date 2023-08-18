@@ -135,12 +135,15 @@ a:hover {
     }
 
     body {
-        background-color: white;
+        background-color: black;
         background-image: none;
-        margin-left: -1px;
     }
 
     main {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: -10px;
+        margin-right: -10px;
         box-shadow: none;
         min-width: 310px;
         max-width: 599px;
