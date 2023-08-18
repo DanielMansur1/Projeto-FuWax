@@ -54,10 +54,12 @@ em {
 
     body {
         background-color: white;
+        margin-left: -1px;
     }
 
     main {
-        min-width: 350px;
+        min-width: 310px;
+        max-width: 599px;
         box-shadow: none;
     }
 

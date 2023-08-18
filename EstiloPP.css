@@ -87,8 +87,8 @@ p {
 
     main {
         box-shadow: none;
-        min-width: 350px;
-        width: 100%;
+        min-width: 310px;
+        max-width: 599px;
     }
 
     body {
@@ -99,6 +99,7 @@ p {
         height: none;
         background-repeat: none;
         background-size: none;
+        margin-left: -1px;
     }
 
     figcaption.centro1 {
@@ -107,8 +108,8 @@ p {
         border: 3px solid black;
         background-color: black;
         margin-top: -29px;
-        margin-left: 10.4%;
-        margin-right: 10.3%;
+        margin-left: 15%;
+        margin-right: 15%;
         padding-bottom: 1px;
     }
 
