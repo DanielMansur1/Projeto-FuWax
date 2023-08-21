@@ -173,27 +173,29 @@ a:hover {
     }
 
     .container-figGD1 {
-        font-size: 1.35em;
+        font-size: 1.1em;
         color: rgb(255, 255, 255);
         float: right;
-        margin-right: 55px;
-        margin-top: -15px;
-        padding-right: 2px;
-        padding-left: 2px;
+        margin-right: 10px;
+        margin-top: -6px;
+        padding-left: 4px;
+        padding-right: 4px;
         padding-bottom: 1px;
+        padding-top: 1px;
         border: 4px solid black;
         background: rgb(0, 0, 0);
     }
 
     .container-figGD2 {
-        font-size: 1.35em;
+        font-size: 1.1em;
         color: rgb(255, 255, 255);
         float: right;
-        margin-right: 58px;
-        margin-top: -14px;
-        padding-right: 3px;
-        padding-left: 2px;
-        padding-bottom: 2px;
+        margin-right: 10px;
+        margin-top: -6px;
+        padding-left: 4px;
+        padding-right: 4px;
+        padding-bottom: 1px;
+        padding-top: 1px;
         border: 4px solid black;
         background: rgb(0, 0, 0);
     }
@@ -206,6 +208,38 @@ a:hover {
         padding-right: 4px;
         padding-left: 3px;
         padding-bottom: 2px;
+        border: 4px solid black;
+        background: rgb(0, 0, 0);
+    }
+
+    .container-figGCD1 {
+        font-size: 1.1em;
+        text-align: center;
+        margin-right: -19.5em;
+        margin-top: -20px;
+    }
+
+    .container-figGCD1 a {
+        padding-left: 4px;
+        padding-right: 4px;
+        padding-bottom: 1px;
+        padding-top: 1px;
+        border: 4px solid black;
+        background: rgb(0, 0, 0);
+    }
+
+    .container-figGCD2 {
+        font-size: 1.1em;
+        text-align: center;
+        margin-right: -19.3em;
+        margin-top: -20px;
+    }
+
+    .container-figGCD2 a {
+        padding-left: 4px;
+        padding-right: 4px;
+        padding-bottom: 1px;
+        padding-top: 1px;
         border: 4px solid black;
         background: rgb(0, 0, 0);
     }
@@ -231,27 +265,27 @@ a:hover {
     }
 
     .container-figGE1 {
-        font-size: 1.35em;
+        font-size: 1.1em;
         color: rgb(255, 255, 255);
         float: left;
-        margin-left: 48px;
-        margin-top: -13px;
+        margin-left: 10px;
+        margin-top: -6px;
         padding-left: 4px;
         padding-right: 4px;
         padding-bottom: 1px;
-        padding-top: 2px;
+        padding-top: 1px;
         background: #000000;
         border: 4px solid black;
     }
 
     .container-figGE2 {
-        font-size: 1.35em; 
+        font-size: 1.1em; 
         float: left;
-        margin-left: 130px;
-        margin-top: -14px;
+        margin-left: 10px;
+        margin-top: -6px;
         padding-left: 4px;
         padding-right: 4px;
-        padding-bottom: 2px;
+        padding-bottom: 1px;
         padding-top: 1px;
         background: #000000;
         border: 4px solid black;
@@ -283,15 +317,55 @@ a:hover {
         border: 4px solid black;
     }
 
+    .container-figGCE1 {
+        text-align: center;
+        font-size: 1.1em;
+        margin-left: -19.5em;
+        margin-top: -4px;
+        color: rgb(255, 255, 255);
+    }
+
+    .container-figGCE1 a {
+        background: #000000;
+        border: 3px solid black;
+        padding-left: 4px;
+        padding-right: 4px;
+        padding-bottom: 1px;
+        padding-top: 1px;   
+    }
+
+    .container-figGCE2 {
+        text-align: center;
+        font-size: 1.1em;
+        margin-left: -19.7em;
+        margin-top: -4px;
+        color: rgb(255, 255, 255);
+    }
+
+    .container-figGCE2 a {
+        background: #000000;
+        border: 3px solid black;
+        padding-left: 4px;
+        padding-right: 4px;
+        padding-bottom: 1px;
+        padding-top: 1px;   
+    }
+
     .container-figGC1 {
         text-align: center;
-        font-size: 1.35em;
-        margin-left: 13%;
-        margin-right: 13%;
+        font-size: 1.1em;
+        margin-top: -5px;
+        color: rgb(255, 255, 255);
+    }
+
+    .container-figGC1 figcaption {
+        text-align: center;
+        font-size: 1.1em;
+        margin-left: 3em;
+        margin-right: 3em;
         margin-top: -5px;
         padding-top: 2px;
         padding-bottom: 2px;
-        color: rgb(255, 255, 255);
         background: #000000;
         border: 3px solid black;
     }
@@ -452,10 +526,16 @@ a:hover {
     }
     /* -------------------------------------- */
 
+    /* Media links */
+    a {
+        text-decoration: underline;
+    }
+
+
     /* Media Geral */
     body {
-        background-color: white;
-        width: none;
+        background-color: black;
+        width: 100%;
         height: none;
         background-image: none;
         background-repeat: none;
@@ -467,13 +547,12 @@ a:hover {
     main {
         background-color: rgb(255, 255, 255);
         min-width: 420px;
-        max-width: 750px;
+        max-width: 749px;
         padding-left: 10px;
         padding-right: 10px;
         margin-right: -10px;
         margin-left: -10px;
         padding: 10px;
-        width: 100%;
         box-shadow: none;
     }
 
