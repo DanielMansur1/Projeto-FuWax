@@ -356,17 +356,12 @@ a:hover {
         font-size: 1.1em;
         margin-top: -5px;
         color: rgb(255, 255, 255);
-    }
-
-    .container-figGC1 figcaption {
-        text-align: center;
-        font-size: 1.1em;
         margin-left: 3em;
         margin-right: 3em;
         margin-top: -5px;
         padding-top: 2px;
         padding-bottom: 2px;
-        background: #000000;
+        background-color: black;
         border: 3px solid black;
     }
 
@@ -535,7 +530,7 @@ a:hover {
     /* Media Geral */
     body {
         background-color: black;
-        width: 100%;
+        width: none;
         height: none;
         background-image: none;
         background-repeat: none;
@@ -550,8 +545,7 @@ a:hover {
         max-width: 749px;
         padding-left: 10px;
         padding-right: 10px;
-        margin-right: -10px;
-        margin-left: -10px;
+        margin-left: -8px;
         padding: 10px;
         box-shadow: none;
     }
