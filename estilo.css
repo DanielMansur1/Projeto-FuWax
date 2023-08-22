@@ -479,6 +479,18 @@ a:hover {
         padding-left: 3px;
         padding-right: 3px;
     }
+
+    .container-figGC7 {
+        margin-top: -2em;
+        text-align: center;
+        font-size: 1em;
+        color: rgb(255, 255, 255);
+        background-color: black;
+        border: 3px solid black;
+        margin-left: 6.5em;
+        margin-right: 6.5em;
+        padding: 3px;
+    }
     /* ---------------------------------------- */
 
     /* Media Imagem */
@@ -499,33 +511,47 @@ a:hover {
         border: 5px solid rgb(0, 0, 0);
     }
 
-    .container-ladoCD a {
-        color: rgb(53, 13, 13);
+    .container-ladoCD2 {
+        margin-left: 11em;
+        margin-right: 3em;
+        margin-top: -11em;
+        margin-bottom: 11em;
     }
 
-    .container-ladoCD p {
-        color: white;
-        font-size: 1.15em;
-        margin-top: -10em;
-        margin-bottom: 10em;
-        padding-top: 3px;
-        padding-bottom: 3px;
-        border: 3px solid black;
-        background-color: rgb(184, 44, 44);
+    .container-ladoCD2 img {
+        border: 4.5px solid black;
+        margin-top: 4em;
+        margin-left: 2.5em;
     }
 
-    .container-ladoCD img {
+    .container-ladoCE2 {
+        margin-left: -14em;
+        padding-left: 30px;
+        margin-top: -5.5em;
+    }
+
+    .container-ladoCE2 img {
         border: 4.5px solid black;
     }
 
     .container-ladoCE {
         margin-left: -14em;
-        display: block;
         padding-left: 30px;
     }
 
     .container-ladoCE img {
         border: 4.5px solid black;
+    }
+
+    .container-ladoCD {
+        margin-left: 11em;
+        margin-right: 3em;
+    }
+
+    .container-ladoCD img {
+        border: 4.5px solid black;
+        margin-top: -2em;
+        margin-left: 2em;
     }
     /* --------------------------------------- */
 
@@ -573,6 +599,73 @@ a:hover {
     .container-guia-750px {
         display: none;
     }
+
+    .container-centro-txt {
+        margin-left: 4.5em;
+        margin-right: 4.5em;
+    }
+
+    .container-centro-txt p {
+        font-size: 1.2em;
+        color: rgb(216, 211, 211);
+        background-color: rgb(184, 44, 44);
+        border: 3px solid black;
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+
+    .container-ladoCE-txt {
+        margin-right: 11.5em;
+        margin-left: 2.5em;
+    }
+
+    .container-ladoCE2-txt {
+        margin-right: 11em;
+    }
+
+    .container-ladoCE-txt p {
+        color: rgb(216, 211, 211);
+        background-color: rgb(184, 44, 44);
+        border: 3px solid black;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        font-size: 1.15em;
+        margin-top: -10em;
+        margin-bottom: 10em;
+        padding-right: 3.5em;
+    }
+
+    .container-ladoCE2-txt p {
+        font-size: 1.15em;
+        color: rgb(216, 211, 211);
+        border: 3px solid black;
+        background-color: rgb(184, 44, 44);
+        padding-top: 4px;
+        padding-bottom: 4px;
+        margin-top: -20em;
+        margin-bottom: 4.5em;
+        padding-right: 0.5em;
+    }
+
+    .container-ladoCD p {
+        color: rgb(216, 211, 211);
+        font-size: 1.15em;
+        margin-top: -10em;
+        margin-bottom: 10em;
+        padding-left: 2em;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        border: 3px solid black;
+        background-color: rgb(184, 44, 44);
+    }
+
+    .container-ladoCD2 p {
+        color: rgb(216, 211, 211);
+        font-size: 1.15em;
+        padding-left: 3.5em;
+        border: 3px solid black;
+        background-color: rgb(184, 44, 44);
+    }
     /* ----------------------------- */
 
     /* Media Videos */
@@ -589,6 +682,22 @@ a:hover {
     /* Media links */
     a {
         text-decoration: underline;
+    }
+
+    .container-ladoCE-txt a {
+        color: rgb(53, 13, 13);
+    }
+
+    .container-ladoCE2-txt a {
+        color: rgb(53, 13, 13);   
+    }
+
+    .container-ladoCD a {
+        color: rgb(53, 13, 13);
+    }
+
+    .container-ladoCD2 a {
+        color: rgb(53, 13, 13);
     }
 
 
