@@ -135,7 +135,7 @@ a:hover {
     }
 
     body {
-        background-color: white;
+        background-color: black;
     }
 
     main {
@@ -145,7 +145,6 @@ a:hover {
         margin-right: -10px;
         box-shadow: none;
         min-width: 310px;
-        overflow: hidden;
     }
 
     h2.tipos {
