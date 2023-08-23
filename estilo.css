@@ -804,6 +804,18 @@ a:hover {
         display: none;
     }
 
+    .container-figGCD1 {
+        display: none;
+    }
+
+    .container-figGCD2 {
+        display: none;
+    }
+
+    .container-figGCD3 {
+        display: none;
+    }
+
     .container-figGE1 {
         display: none;
     }
@@ -817,6 +829,18 @@ a:hover {
     }
 
     .container-figGE4 {
+        display: none;
+    }
+
+    .container-figGCE1 {
+        display: none;
+    }
+
+    .container-figGCE2 {
+        display: none;
+    }
+
+    .container-figGCE3 {
         display: none;
     }
 
@@ -837,6 +861,14 @@ a:hover {
     }
 
     .container-figGC5 {
+        display: none;
+    }
+
+    .container-figGC6 {
+        display: none;
+    }
+
+    .container-figGC7 {
         display: none;
     }
 
@@ -925,6 +957,14 @@ a:hover {
         display: none;
     }
 
+    .container-ladoCD {
+        display: none;
+    }
+
+    .container-ladoCD2 {
+        display: none;
+    }
+
     .container-ladoE {
         display: none;
     }
@@ -932,6 +972,15 @@ a:hover {
     .container-ladoE img {
         display: none;
     }
+
+    .container-ladoCE {
+        display: none;
+    }
+
+    .container-ladoCE2 {
+        display: none;
+    }
+
     /* ------------------------------ */
 
     /* Media Textos */
@@ -951,7 +1000,19 @@ a:hover {
         display: none;
     }
 
+    .container-ladoCE-txt {
+        display: none;
+    }
+
+    .container-ladoCE2-txt {
+        display: none;
+    }
+
     .container-lateralD {
+        display: none;
+    }
+
+    .container-centro-txt {
         display: none;
     }
 
