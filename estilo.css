@@ -551,7 +551,7 @@ a:hover {
         font-size: 1.4em;
     }
 
-    p.box1 {
+    p.box-1 {
         border: 3px solid black;
         background-color: rgb(184, 44, 44);
         padding-top: 2px;
@@ -562,7 +562,7 @@ a:hover {
         margin-bottom: 1.5em;
     }
 
-    p.box2 {
+    p.box-2 {
         border: 3px solid black;
         background-color: rgb(184, 44, 44);
         padding-top: 2px;
@@ -573,7 +573,7 @@ a:hover {
         margin-bottom: 1.7em;
     }
 
-    p.box3 {
+    p.box-3 {
         border: 3px solid black;
         background-color: rgb(184, 44, 44);
         padding-top: 2px;
@@ -584,7 +584,7 @@ a:hover {
         margin-bottom: 2.3em;
     }
 
-    p.box4 {
+    p.box-4 {
         border: 3px solid black;
         background-color: rgb(184, 44, 44);
         padding-top: 2px;
@@ -595,7 +595,7 @@ a:hover {
         margin-right: 1em;
     }
 
-    p.box5 {
+    p.box-5 {
         border: 3px solid black;
         background-color: rgb(184, 44, 44);
         padding-top: 2px;
