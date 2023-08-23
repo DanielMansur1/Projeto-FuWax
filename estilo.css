@@ -503,7 +503,8 @@ a:hover {
     }
 
     .container-ladoCD2 {
-        margin-left: 11em;
+        margin-left: 10em;
+        margin-right: 0.5em;
         margin-top: -11em;
         margin-bottom: 11em;
     }
@@ -511,11 +512,11 @@ a:hover {
     .container-ladoCD2 img {
         border: 4.5px solid black;
         margin-top: 4em;
-        margin-left: 2.5em;
+        margin-left: 3.5em;
     }
 
     .container-ladoCE2 {
-        margin-left: -14em;
+        margin-left: -17em;
         padding-left: 30px;
         margin-top: -5.5em;
     }
@@ -525,7 +526,7 @@ a:hover {
     }
 
     .container-ladoCE {
-        margin-left: -14em;
+        margin-left: -17em;
         padding-left: 30px;
     }
 
@@ -534,14 +535,14 @@ a:hover {
     }
 
     .container-ladoCD {
-        margin-left: 11em;
-        margin-right: 3em;
+        margin-left: 10em;
+        margin-right: 0.5em;
     }
 
     .container-ladoCD img {
         border: 4.5px solid black;
         margin-top: -2em;
-        margin-left: 2em;
+        margin-left: 3.7em;
     }
     /* --------------------------------------- */
 
@@ -605,8 +606,8 @@ a:hover {
     }
 
     .container-ladoCE-txt {
-        margin-right: 11.5em;
-        margin-left: 2.5em;
+        margin-right: 10em;
+        margin-left: 0.5em;
     }
 
     .container-ladoCE2-txt {
@@ -623,7 +624,7 @@ a:hover {
         font-size: 1.15em;
         margin-top: -10em;
         margin-bottom: 10em;
-        padding-right: 3.5em;
+        padding-right: 5.3em;
     }
 
     .container-ladoCE2-txt p {
@@ -643,7 +644,7 @@ a:hover {
         font-size: 1.15em;
         margin-top: -10em;
         margin-bottom: 10em;
-        padding-left: 2em;
+        padding-left: 4.8em;
         padding-top: 4px;
         padding-bottom: 4px;
         border: 3px solid black;
@@ -653,7 +654,7 @@ a:hover {
     .container-ladoCD2 p {
         color: rgb(216, 211, 211);
         font-size: 1.15em;
-        padding-left: 3.5em;
+        padding-left: 4.5em;
         border: 3px solid black;
         background-color: rgb(184, 44, 44);
     }
