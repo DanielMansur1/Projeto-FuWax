@@ -92,7 +92,7 @@ a.Cold {
 
 a.Cool {
     font-size: 1.0em;
-    color: blue;
+    color: rgb(13, 26, 141);
 }
 
 a.SummerCool {
@@ -136,7 +136,6 @@ a:hover {
 
     body {
         background-color: white;
-        
     }
 
     main {
@@ -146,7 +145,7 @@ a:hover {
         margin-right: -10px;
         box-shadow: none;
         min-width: 310px;
-        max-width: 599px;
+        overflow: hidden;
     }
 
     h2.tipos {
@@ -163,7 +162,7 @@ a:hover {
     a.Cool {
         border: 3px solid black;
         padding: 5px;
-        box-shadow: -4px 4px 4px blue;
+        box-shadow: -4px 4px 4px rgb(13, 26, 141);
     }
 
     a.SummerCool {
