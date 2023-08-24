@@ -751,7 +751,7 @@ a:hover {
 
     /* Media Geral */
     body {
-        background-color: white;
+        background-color: black;
         width: none;
         height: none;
         background-image: none;
@@ -759,7 +759,8 @@ a:hover {
         background-position: none;
         background-size: none;
         background-position: none;
-        margin-left: -2px;
+        margin-left: -1px;
+        margin-right: 1px;
         display: flex;
     }
 
