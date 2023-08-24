@@ -62,7 +62,7 @@ a.warm {
 
     main {
         box-shadow: none;
-        min-width: 420px;
+        min-width: 310px;
         flex-direction: row;
         justify-content: center;
     }
@@ -78,6 +78,10 @@ a.warm {
         padding: 10px;
         text-align: center;
         font-size: 1.1em;
+    }
+
+    img.back {
+        margin-bottom: 0.5em;
     }
 }
 

@@ -157,13 +157,16 @@ a:hover {
         background-position: none;
         background-position: none;
         margin: 0px;
+        margin-left: -1px;
     }
 
     main {
         box-shadow: none;
-        min-width: 420px;
+        min-width: 310px;
         flex-direction: row;
         justify-content: center;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
     h1.titulo {
@@ -176,7 +179,7 @@ a:hover {
     }
 
     h2.tipo-base {
-        margin-top: -2.7em;
+        margin-top: -2.8em;
     }
 
     a.Cold {

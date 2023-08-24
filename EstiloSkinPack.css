@@ -18,7 +18,6 @@ main {
 
 h1 {
     font-size: 2em;
-    color: rgb(14, 90, 14);
     text-align: center;
 }
 
@@ -70,53 +69,60 @@ u.sc {
     color: rgb(14, 90, 14);
 }
 
-@media (max-width: 599px) {
-    .container-599px {
+@media (max-width: 999px) {
+    .container-999px {
         display: block;
     }
 
-    .container-600px {
-        display: none;
-    }
-
-    .container-787px {
+    .container-1000px {
         display: none;
     }
 
     body {
         background-color: black;
-        margin-left: -1px;
+        margin: 0px;
     }
 
     main {
         background-color: rgb(0, 0, 0);
         min-width: 310px;
-        max-width: 599px;
-        margin: auto;
-        padding: 10px;
         box-shadow: none;
+        flex-direction: row;
+        justify-content: center;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
     h1.titulo-599px {
         font-size: 1.5em;
-        color: rgba(39, 75, 129, 0.822);
+        color: rgba(39, 75, 129, 0.788);
     }
 
-    figcaption.centro {
+    figcaption.centro1 {
         text-align: center;
-        margin-top: -3em;
+        margin-top: -2em;
+    }
+
+    figcaption.centro2 {
+        text-align: center;
+        margin-top: -1.5em;
     }
 
     a.cool {
         font-size: 1.3em;
-        color: rgb(39, 75, 129);
+        color: rgb(39, 75, 129, 0.788);
         text-decoration: none; 
     }
 
     a.sc {
         font-size: 1.3em;
-        color: rgb(14, 90, 14);
+        color: rgb(14, 90, 14, 0.788);
         text-decoration: none;
+    }
+
+    a.Filipe {
+        font-size: 1.3em;
+        color: rgba(14, 90, 14, 0.788);
     }
 
     p.txt1 {
@@ -167,125 +173,25 @@ u.sc {
 
     img.back {
         margin-left: 1em;
+        margin-bottom: 0.5em;
+        margin-top: 0.5em;
+    }
+
+    img.F {
+        border: 3px solid rgba(14, 90, 14, 0.39);
+    }
+
+    h1.titulo-999px {
+        color: rgb(39, 75, 129);
     }
 }
 
-@media (min-width: 600px) {
-    .container-600px {
+@media (min-width: 1000px) {
+    .container-1000px {
         display: block;
     }
 
-    .container-599px {
-        display: none;
-    }
-
-    .container-787px {
-        display: none;
-    }
-
-    body {
-        background-color: black;
-    }
-
-    main {
-        background-color: rgb(0, 0, 0);
-        min-width: 750px;
-        max-width: 750px;
-        margin: auto;
-        padding: 10px;
-        box-shadow: none;
-    }
-
-    h1.titulo-600px {
-        font-size: 1.7em;
-    }
-
-    a.cool {
-        font-size: 1.3em;
-        color: rgb(39, 75, 129);
-        text-decoration: none; 
-        margin-left: 3.35em;   
-        border: 2px solid rgba(37, 29, 29, 0.575); 
-        padding: 4px;
-        background-color: rgba(37, 29, 29, 0.575);
-        box-shadow: -4px 4px 4px;
-    }
-
-    a.cool2 {
-        font-size: 1em;
-        color: rgb(39, 75, 129);
-        text-decoration: none;
-    }
-
-    a.sc {
-        font-size: 1.3em;
-        color: rgb(14, 90, 14);
-        text-decoration: none;
-        margin-right: 2.8em;
-        border: 2px solid rgba(37, 29, 29, 0.575);
-        padding: 4px;
-        background-color: rgba(37, 29, 29, 0.575);
-        box-shadow: 4px 4px 4px;
-    }
-
-    figcaption.ladoD {
-        margin-top: -20px;
-    }
-
-    figcaption.ladoE {
-        margin-top: -20px;
-    }
-
-    p.txt1 {
-        margin-left: 8%;
-        color: rgba(255, 255, 255, 0.774);
-        border: 3px solid rgb(39, 75, 129);
-        padding: 10px;
-        background-color: rgba(37, 29, 29, 0.575);
-        box-shadow: -2px -2px 2px rgb(39, 75, 129);
-        text-align: center;
-        float: left;
-    }
-
-    p.txt2 {
-        color: rgba(255, 255, 255, 0.774);
-        border: 3px solid rgb(14, 90, 14);
-        padding: 10px;
-        background-color: rgba(37, 29, 29, 0.575);
-        margin-top: 5.5em;
-        float: right;
-        text-align: center;
-        margin-right: 8%;
-        box-shadow: 2px -2px 2px rgb(14, 90, 14);
-    }
-
-    p.txt3 {
-        margin-top: 5.5em;
-        color: rgba(255, 255, 255, 0.774);
-        border: 3px solid rgb(39, 75, 129);
-        margin-left: 5%;
-        padding: 10px;
-        background-color: rgba(37, 29, 29, 0.575);
-        box-shadow: -2px 2px 2px rgb(39, 75, 129);
-        text-align: center;
-        float: left;
-    }
-
-    a:hover {
-        text-decoration: underline;
-    }
-}
-
-@media (min-width: 787px) {
-    .container-787px {
-        display: block;
-    }
-
-    .container-599px {
-        display: none;
-    }
-
-    .container-600px {
+    .container-999px {
         display: none;
     }
 
@@ -302,24 +208,37 @@ u.sc {
         box-shadow: 18px 18px 18px rgba(16, 231, 145, 0.911);
     }
 
-    h1.titulo-787px {
+    h1.titulo {
+        display: block;
         font-size: 2em;
+        color: rgb(14, 90, 14);
     }
 
     figcaption.ladoE {
-        margin-top: 1px;
+        margin-top: -8em;
+        margin-left: 5.3em;
+        margin-right: -5.3em;
     }
 
     figcaption.ladoD {
-        margin-top: 1px;
+        margin-top: -8em;
+        margin-left: -4.1em;
+        margin-right: 4.1em;
+    }
+
+    figcaption.centro {
+        text-align: center;
+        margin-top: -3em;
+        border: 3px solid rgb(14, 90, 14);
+        box-shadow: 4% 4% 4% rgba(15, 150, 15, 0.705);
     }
 
     p.txt1-1 {
         font-size: 1em;
         color: white;
         background-color: rgba(37, 29, 29, 0.575);
-        border: 3px solid rgb(39, 75, 129);
-        box-shadow: -4px 4px 4px rgb(39, 75, 129);
+        border: 3px solid rgb(39, 75, 129, 0.39);
+        box-shadow: -4px 4px 4px rgb(39, 75, 129, 0.39);
         padding: 10px;
         text-align: center;
         margin-left: 10em;
@@ -349,5 +268,50 @@ u.sc {
         float: left;
         margin-left: 2em;
         margin-top: 1.5em;
+    }
+
+    figcaption.centro3 {
+        text-align: center;
+        margin-top: -1.5em;
+        margin-bottom: -1em;
+    }
+
+    img.ladoE {
+        margin-top: 4em;
+        margin-left: 1.8em;
+        margin-right: -1.8em;
+    }
+
+    img.ladoD {
+        margin-top: 4em;
+        margin-left: -1.8em;
+        margin-right: 1.8em;
+    }
+
+    img.F {
+        border: 3px solid rgb(39, 75, 129, 0.39);
+    }
+
+    a.Filipe {
+        font-size: 1.3em;
+        color: rgba(39, 75, 129, 0.699);
+    }
+
+    a.cool {
+        font-size: 1.4em;
+        color: rgb(39, 75, 129);
+        text-decoration: none;
+    }
+
+    a.sc {
+        font-size: 1.4em;
+        text-decoration: none;
+        color: rgb(14, 90, 14);;
+    }
+
+    img.back {
+        margin-left: 1em;
+        margin-top: -4em;
+        margin-bottom: 1em;
     }
 }

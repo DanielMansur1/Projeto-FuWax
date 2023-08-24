@@ -53,7 +53,7 @@ a.warm {
 
     main {
         box-shadow: none;
-        min-width: 420px;
+        min-width: 310px;
         flex-direction: row;
         justify-content: center;
     }
@@ -69,6 +69,10 @@ a.warm {
         border: 3px solid rgb(230, 29, 14);
         background-color: rgba(0, 8, 83, 0.863);
         padding: 10px;
+    }
+
+    img.back {
+        margin-bottom: 0.5em;
     }
 }
 
