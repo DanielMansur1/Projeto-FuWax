@@ -46,31 +46,25 @@ a.warm {
     font-size: 1.1em;
 }
 
-@media (max-width: 599px) {
-    .container-599px {
+@media (max-width: 999px) {
+    .container-999px {
         display: block;
     }
 
-    .container-600px {
-        display: none;
-    }
-
-    .container-701px {
+    .container-1000px {
         display: none;
     }
 
     body {
         background-color: white;
+        margin: 0px;
     }
 
     main {
-        padding-left: 10px;
-        padding-right: 10px;
-        margin-right: -10px;
-        margin-left: -10px;
-        min-width: 310px;
-        max-width: 599px;
         box-shadow: none;
+        min-width: 420px;
+        flex-direction: row;
+        justify-content: center;
     }
 
     em {
@@ -87,83 +81,12 @@ a.warm {
     }
 }
 
-@media (min-width: 600px) {
-    .container-600px {
+@media (min-width: 1000px) {
+    .container-1000px {
         display: block;
     }
 
-    .container-599px {
-        display: none;
-    }
-
-    .container-701px {
-        display: none;
-    }
-
-    body {
-        background-color: white;
-    }
-
-    main {
-        background-color: white;
-        min-width: 665px;
-        max-width: 665px;
-        margin: auto;
-        padding: 10px;
-        box-shadow: none;
-    }
-
-    h1 {
-        font-size: 2.5em;
-    }
-
-    h1.linha {
-        margin-top: -10px;
-    }
-
-    p {
-        color: rgba(255, 255, 255, 0.884);
-        font-size: 1.3em;
-        border: 4px solid rgb(0, 155, 216);
-        background-color: rgb(10, 11, 80);
-        padding: 5px;
-        margin-left: 15px;
-        margin-right: 15px;
-        text-align: center;
-    }
-
-    img.back {
-        margin-left: 20px;
-        margin-top: -10px;
-    }
-
-    a.sc {
-        text-decoration: none;
-    }
-    
-    a.cold {
-        text-decoration: none;
-    }
-    
-    a.warm {
-        text-decoration: none;
-    }
-
-    a:hover {
-        text-decoration: underline;
-    }
-}
-
-@media (min-width: 701px) {
-    .container-701px {
-        display: block;
-    }
-
-    .container-599px {
-        display: none;
-    }
-
-    .container-600px {
+    .container-999px {
         display: none;
     }
 
