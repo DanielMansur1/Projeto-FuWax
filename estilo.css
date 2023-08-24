@@ -745,7 +745,7 @@ a:hover {
     }
 
     .container-ladoCD2 a {
-        color: rgb(53, 13, 13);
+        color: rgb(53, 13, 13);    
     }
 
 
@@ -759,7 +759,7 @@ a:hover {
         background-position: none;
         background-size: none;
         background-position: none;
-        margin-left: -1px;
+        margin-left: -2px;
         display: flex;
     }
 
