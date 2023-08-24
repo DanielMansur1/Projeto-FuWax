@@ -759,16 +759,12 @@ a:hover {
         background-position: none;
         background-size: none;
         background-position: none;
+        margin-left: -1px;
+        display: flex;
     }
 
     main {
-        background-color: rgb(255, 255, 255);
         min-width: 420px;
-        max-width: 749px;
-        padding-left: 10px;
-        padding-right: 10px;
-        margin-left: -8px;
-        padding: 10px;
         box-shadow: none;
     }
 

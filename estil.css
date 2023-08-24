@@ -136,13 +136,19 @@ a:hover {
 
     body {
         background-color: black;
+        width: none;
+        height: none;
+        background-image: none;
+        background-repeat: none;
+        background-position: none;
+        background-position: none;
         margin-left: -1px;
     }
 
     main {
         box-shadow: none;
         min-width: 310px;
-        max-width: 599px;
+        max-width: 699px;
     }
 
     h2.tipos {
