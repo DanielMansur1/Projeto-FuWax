@@ -138,14 +138,14 @@ a:hover {
 /* -------------- */
 
 /* Media Querys */
-@media (max-width: 749px) {
+@media (max-width: 999px) {
 
     /* Medias Figcaption */
     .container-fig {
         display: none;
     }
 
-    .container-749px figcaption {
+    .container-999px figcaption {
         text-align: center;
     }
 
@@ -172,7 +172,7 @@ a:hover {
         display: none;
     }
 
-    figcaption.ladoD-750px {
+    figcaption.ladoD-1000px {
         display: none;
     }
 
@@ -278,7 +278,7 @@ a:hover {
         display: none;
     }
 
-    figcaption.ladoE-750px {
+    figcaption.ladoE-1000px {
         display: none;
     }
 
@@ -486,16 +486,16 @@ a:hover {
     /* ---------------------------------------- */
 
     /* Media Imagem */
-    .container-img-749px img {
+    .container-img-999px img {
         text-align: center;
         border: 5px solid black;
     }
 
-    .container-img-750px {
+    .container-img-1000px {
         display: none;
     }
 
-    .container-imgC-750px {
+    .container-imgC-1000px {
         display: none;
     }
 
@@ -627,23 +627,23 @@ a:hover {
         padding-right: 30px;
     }
 
-    .container-filho2-749px {
+    .container-filho2-999px {
         font-size: 1.25em;
     }
 
-    .container-filho3-749px {
+    .container-filho3-999px {
         font-size: 1.20em;
     }
 
-    .container-filho4-749px {
+    .container-filho4-999px {
         font-size: 1.40em;
     }
 
-    .container-guia-749px {
+    .container-guia-999px {
         font-size: 1.20em;
     }
 
-    .container-guia-750px {
+    .container-guia-1000px {
         display: none;
     }
 
@@ -717,12 +717,12 @@ a:hover {
     /* ----------------------------- */
 
     /* Media Videos */
-    .container-749px-video iframe {
+    .container-999px-video iframe {
         border: 3px solid black;
         width: 80%;
     }
 
-    .container-750px-video {
+    .container-1000px-video {
         display: none;
     }
     /* -------------------------------------- */
@@ -751,7 +751,7 @@ a:hover {
 
     /* Media Geral */
     body {
-        background-color: black;
+        background-color: white;
         width: none;
         height: none;
         background-image: none;
@@ -760,8 +760,10 @@ a:hover {
         background-size: none;
         background-position: none;
         margin-left: -1px;
-        margin-right: 1px;
         display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
     }
 
     main {
@@ -769,12 +771,12 @@ a:hover {
         box-shadow: none;
     }
 
-    .container-750px {
+    .container-1000px {
         display: none;
     }
 }
 
-@media (min-width: 750px) {
+@media (min-width: 1000px) {
 
     /* Media Figcaption */
     .container-fig {
@@ -801,7 +803,7 @@ a:hover {
         margin-top: -23.5px;
     }
 
-    figcaption.ladoD-750px {
+    figcaption.ladoD-1000px {
         font-size: 0.95em;
         color: rgba(255, 255, 255, 0.856);
         float: right;
@@ -833,7 +835,7 @@ a:hover {
         margin-top: -4px;
     }
 
-    figcaption.ladoE-750px {
+    figcaption.ladoE-1000px {
         font-size: 0.95em;
         float: left;
         color: rgba(255, 255, 255, 0.856);
@@ -978,23 +980,23 @@ a:hover {
     /* --------------------------- */
 
     /* Media Imagens */
-    .container-img-749px {
+    .container-img-999px {
         display: none;
     }
 
-    .container-img-749px img {
+    .container-img-999px img {
         display: none;
     }
 
-    .container-img-750px img {
+    .container-img-1000px img {
         border: 3px solid black;
     }
 
-    .container-imgC-750px {
+    .container-imgC-1000px {
         text-align: center;
     }
 
-    .container-imgC-750px img {
+    .container-imgC-1000px img {
         border: 3px solid black;
     }
 
@@ -1069,15 +1071,15 @@ a:hover {
         display: none;
     }
 
-    .container-filho2-749px {
+    .container-filho2-999px {
         display: none;
     }
 
-    .container-filho3-749px {
+    .container-filho3-999px {
         display: none;
     }
 
-    .container-filho4-749px {
+    .container-filho4-999px {
         display: none;
     }
 
@@ -1085,35 +1087,35 @@ a:hover {
         color: rgb(172, 54, 54);
     }
 
-    .container-guia-749px {
+    .container-guia-999px {
         display: none;
     }
     /* --------------------------- */
 
     /* Media Videos */
-    .container-749px-video {
+    .container-999px-video {
         display: none;
     }
 
-    .container-749px-video iframe {
+    .container-999px-video iframe {
         display: none;
     }
 
-    .container-750px-video {
+    .container-1000px-video {
         display: block;
     }
 
-    .container-750px-video iframe {
+    .container-1000px-video iframe {
         border: 3.5px solid black;
     }
     /* -------------------------------------- */
 
     /* Media Geral */
-    .container-749px {
+    .container-999px {
         display: none;
     }
 
-    .container-750px {
+    .container-1000px {
         display: block;
     }
 }
