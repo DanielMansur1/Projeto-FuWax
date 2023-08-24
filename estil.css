@@ -88,31 +88,49 @@ a {
 a.Cold {
     font-size: 1.0em;
     color: rgba(179, 39, 39, 0.904);
+    border: 3px solid black;
+    padding: 5px;
+    box-shadow: -4px 4px 4px rgba(0, 8, 83, 0.863);
 }
 
 a.Cool {
     font-size: 1.0em;
     color: rgb(13, 26, 141);
+    border: 3px solid black;
+    padding: 5px;
+    box-shadow: -4px 4px 4px rgb(13, 26, 141);
 }
 
 a.SummerCool {
     font-size: 1.0em;
     color: rgb(0, 107, 0);
+    border: 3px solid black;
+    padding: 5px;
+    box-shadow: -4px 4px 4px rgb(13, 26, 141);
 }
 
 a.Warm {
     font-size: 1.0em;
     color: rgb(204, 204, 0);
+    border: 3px solid black;
+    padding: 5px;
+    box-shadow: -4px 4px 4px rgb(211, 14, 0);
 }
 
 a.Tropical {
     font-size: 1.0em;
     color: rgb(226, 123, 4);
+    border: 3px solid black;
+    padding: 5px;
+    box-shadow: -4px 4px 4px rgb(226, 123, 4);
 }
 
 a.BaseCoat {
     font-size: 1.0em;
     color: rgb(145, 22, 6);
+    border: 3px solid black;
+    padding: 5px;
+    box-shadow: -4px 4px 4px rgba(226, 0, 0, 0.911);
 }
 
 a:hover {
@@ -121,212 +139,82 @@ a:hover {
 
 /* -------------------- */
 
-@media (max-width: 599px) {
-    .container-599px {
+@media (max-width: 999px) {
+    .container-999px {
         display: block;
     }
 
-    .container-600px {
-        display: none;
-    }
-
-    .container-850px {
+    .container-1000px {
         display: none;
     }
 
     body {
-        background-color: black;
+        background-color: white;
         width: none;
         height: none;
         background-image: none;
         background-repeat: none;
         background-position: none;
         background-position: none;
-        margin-left: -1px;
+        margin: 0px;
     }
 
     main {
         box-shadow: none;
-        min-width: 310px;
-        max-width: 699px;
+        min-width: 420px;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    h1.titulo {
+        margin-bottom: 3em;
     }
 
     h2.tipos {
         margin-top: -2em;
-        margin-bottom: 3em;
+        margin-bottom: 4em;
+    }
+
+    h2.tipo-base {
+        margin-top: -2.7em;
     }
 
     a.Cold {
-        border: 3px solid black;
-        padding: 5px;
-        box-shadow: -4px 4px 4px rgba(0, 8, 83, 0.863);
-    }
+        font-size: 1.2em;
+    }  
 
     a.Cool {
-        border: 3px solid black;
-        padding: 5px;
-        box-shadow: -4px 4px 4px rgb(13, 26, 141);
+        font-size: 1.2em;
     }
 
     a.SummerCool {
-        border: 3px solid black;
-        padding: 5px;
-        box-shadow: -4px 4px 4px rgb(13, 26, 141);
+        font-size: 1.2em;
     }
 
     a.Warm {
-        border: 3px solid black;
-        padding: 5px;
-        box-shadow: -4px 4px 4px rgb(211, 14, 0);
+        font-size: 1.2em;
     }
 
     a.Tropical {
-        border: 3px solid black;
-        padding: 5px;
-        box-shadow: -4px 4px 4px rgb(226, 123, 4);
+        font-size: 1.2em;
     }
 
     a.BaseCoat {
-        border: 3px solid black;
-        padding: 5px;
-        box-shadow: -4px 4px 4px rgba(226, 0, 0, 0.911);
+        font-size: 1.2em;
     }
 
-    img.back-600px {
-        margin-left: 5%;
-    }
-}
-
-@media (min-width: 600px) {
-    .container-600px {
-        display: block;
-    }
-
-    .container-599px {
-        display: none;
-    }
-
-    .container-850px {
-        display: none;
-    }
-
-    body {
-        background-color: white;
-        background-image: none;
-        background-repeat: none;
-        background-position: none;
-        background-position: none;
-        background-color: none;
-        margin-left: -1px;
-    }
-
-    main {
-        box-shadow: none;
-    }
-
-    h2.tipos1 {
-        margin-left: -18.1em;
-        margin-bottom: 2.5em;
-    }
-
-    a.Cold {
-        border: 3px solid black;
-        padding: 3px;
-        box-shadow: -4px 4px 4px rgba(0, 8, 83, 0.863);
-    }
-
-    h2.tipos2 {
-        margin-left: -18.1em;
-        margin-bottom: 2.5em;
-    }
-
-    a.Cool {
-        border: 3px solid black;
-        padding: 3px;
-        box-shadow: -4px 4px 4px blue;
-    }
-
-    h2.tipos3 {
-        margin-top: -1.45em;
-        margin-bottom: 2.5em;   
-    }
-
-    a.SummerCool {
-        border: 3px solid black;
-        padding: 3px;
-        box-shadow: -4px 4px 4px rgb(13, 26, 141);
-    }
-
-    h2.tipos4 {
-        margin-top: -1.3em;
-    }
-
-    a.Warm {
-        border: 3px solid black;
-        padding: 3px;
-        box-shadow: -4px 4px 4px rgb(211, 14, 0);
-    }
-
-    h2.tipos5 {
-        float: right;
-        margin-top: -15.02em;
-        margin-right: 3.3em;
-    }
-
-    a.Tropical {
-        border: 3px solid black;
-        padding: 3px;
-        box-shadow: -4px 4px 4px rgb(226, 123, 4);
-    }
-
-    h2.tipos6 {
-        float: right;
-        margin-top: -2em;
-        margin-right: 2.78em;
-    }
-
-    a.BaseCoat {
-        border: 3px solid black;
-        padding: 3px;
-        box-shadow: -4px 4px 4px rgba(226, 0, 0, 0.911);
-    }
-
-    img.ladoE1-600px {
-        margin-left: 2em;
-    }
-
-    h1.meio1-600px {
-        margin-top: -19.45em;
-    }
-
-    h1.ladoD1-600px {
-        float: right;
-        margin-right: 1em;
-        margin-top: -18.33em;
-    }
-
-    h1.ladoD2-600px {
-        float: right;
-        margin-right: 1em;
-        margin-top: -8.54em;
-    }
-
-    img.back-600px {
-        margin-top: 2.3em;
+    img.back-999px {
+        margin-top: 1em;
         margin-left: 1em;
     }
 }
 
-@media (min-width: 850px) {
-    .container-850px {
+@media (min-width: 1000px) {
+    .container-1000px {
         display: block;
     }
 
-    .container-599px {
-        display: none;
-    }
-
-    .container-600px {
+    .container-999px {
         display: none;
     }
 
@@ -358,17 +246,17 @@ a:hover {
         margin-bottom: 1em;
     }
 
-    h2.txt1-850px {
+    h2.txt1-1000px {
         margin-top: -5.1em;
         margin-left: -6.6em;
     }
 
-    img.ladoD2-850px {
+    img.ladoD2-1000px {
         float: right;
         margin-top: -8.2em;
     }
 
-    h2.txt2-850px {
+    h2.txt2-1000px {
         float: right;
         margin-right: 1.17em;
         margin-top: -2em;
@@ -378,21 +266,21 @@ a:hover {
         box-shadow: 4px 4px 4px blue;
     }
 
-    img.ladoE3-850px {
+    img.ladoE3-1000px {
         margin-top: 5em;
     }
 
-    h2.txt3-850px {
+    h2.txt3-1000px {
         margin-top: -5.2em;
         margin-left: -6.5em;
     }
 
-    img.ladoD4-850px {
+    img.ladoD4-1000px {
         float: right;
         margin-top: -8.2em;
     }
 
-    h2.txt4-850px {
+    h2.txt4-1000px {
         float: right;
         margin-top: -1.97em;
         margin-right: 0.98em;
@@ -402,21 +290,21 @@ a:hover {
         box-shadow: 4px 4px 4px rgb(211, 14, 0);
     }
 
-    img.ladoE5-850px {
+    img.ladoE5-1000px {
         margin-top: 5em;
     }
 
-    h2.txt5-850px {
+    h2.txt5-1000px {
         margin-top: -5em;
         margin-left: -6.5em;
     }
 
-    img.ladoD6-850px {
+    img.ladoD6-1000px {
         float: right;
         margin-top: -8.2em;
     }
 
-    h2.txt6-850px {
+    h2.txt6-1000px {
         float: right;
         margin-top: -2em;
         margin-right: 1.5em;
@@ -424,5 +312,11 @@ a:hover {
 
     a.BaseCoat {
         box-shadow: 4px 4px 4px rgba(226, 0, 0, 0.911);
+    }
+
+    img.back-1000px {
+        margin-left: 1em;
+        margin-top: -1.5em;
+        margin-bottom: 1em;
     }
 }
