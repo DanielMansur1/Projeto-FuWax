@@ -64,6 +64,10 @@ figcaption.ladoD {
     color: rgb(88, 88, 88);
 }
 
+a {
+    color: rgb(172, 54, 54);
+}
+
 a.ladoD {
     color: rgb(136, 0, 0);
     font-size: 1.0em; 
@@ -97,16 +101,12 @@ strong {
     font-size: 1.0em;
 }
 
-@media (max-width: 450px) {
-    .container-450px {
+@media (max-width: 999px) {
+    .container-999px {
         display: block;
     }
 
-    .container-451px {
-        display: none;
-    }
-
-    .container-737px {
+    .container-1000px {
         display: none;
     }
 
@@ -164,10 +164,6 @@ strong {
         padding-top: 1px;
     }
 
-    a {
-        color: rgb(172, 54, 54);
-    }
-
     img {
         border: 3px solid black;
     }
@@ -196,204 +192,12 @@ strong {
     }
 }
 
-@media (min-width: 451px) {
-    .container-451px {
+@media (min-width: 1000px) {
+    .container-1000px {
         display: block;
     }
 
-    .container-450px {
-        display: none;
-    }
-
-    .container-737px {
-        display: none;
-    }
-
-    body {
-        background-color: white;
-        background-image: none;
-        background-position: none;
-        width: none;
-        height: none;
-        background-repeat: none;
-        background-size: none;
-    }
-
-    main {
-        background-color: white;
-        min-width: 700px;
-        max-width: 700px;
-        margin: auto;
-        padding: 10px;
-        box-shadow: none;
-    }
-
-    img {
-        border: 3px solid black;
-    }
-
-    img.centro {
-        margin-right: 15px;
-    }
-
-    img.ladoD {
-        margin-left: 30px;
-    }
-
-    img.ladoE {
-        margin-right: 40px;
-    }
-
-    img.back {
-        margin-top: -10px;
-        border: none;
-    }
-
-    figcaption.ladoE1-451px {
-        float: left;
-        color: rgb(255, 255, 255, 0.747);
-        font-size: 1.07em;
-        border: 3px solid black;
-        background-color: black;
-        padding-bottom: 1px;
-        padding-top: 1px;
-        padding-left: 2px;
-        padding-right: 2px;
-        margin-top: -5px;
-    }
-
-    figcaption.ladoE2-451px {
-        float: left;
-        font-size: 1.07em;
-        border: 3px solid black;
-        background-color: black;
-        margin-top: -19.2em;
-        margin-left: 0.1em;
-        padding-bottom: 1px;
-        padding-top: 2px;
-        padding-left: 2px;
-        padding-right: 3px;
-        color: black;
-    }
-
-    figcaption.ladoD1-451px {
-        font-size: 1.07em;
-        color: rgba(255, 255, 255, 0.747);
-        float: right;
-        border: 3px solid black;
-        background-color: black;
-        margin-top: -5px;
-        padding-bottom: 1px;
-        padding-top: 1px;
-        padding-left: 2px;
-        padding-right: 2px;
-        margin-right: -5.5px;
-    }
-
-    figcaption.ladoD2-451px {
-        font-size: 1em;
-        border: 3px solid black;
-        background-color: black;
-        margin-top: -5.1em;
-        margin-right: 2px;
-        padding-bottom: 1px;
-        padding-top: 2px;
-        padding-left: 2px;
-        padding-right: 3px;
-        float: right;
-    }
-
-    h1 {
-        font-size: 2em;
-        color: rgb(136, 0, 0);
-    }
-
-    h1.linha {
-        margin-top: -1em;
-    }
-
-    h3 {
-        font-size: 1.4em;
-        text-align: center;
-        color: rgb(128, 34, 34);
-    }
-
-    h3.principal {
-        margin-top: -10px;
-    }
-
-    h3.centro {
-        margin-top: -0.8em;
-    }
-
-    h3.ladoD {
-        margin-right: 15px;
-    }
-
-    h4 {
-        font-size: 1.1em;
-    }
-
-    h4.principal {
-        margin-top: -1px;
-        margin-left: 5px;
-    }
-
-    h4.ladoD {
-        margin-top: 2em;
-        margin-right: 15px;
-    }
-
-    p {
-        font-size: 1.12em; 
-    }
-
-    p.centro {
-        border: 3px solid black;
-        background-color: rgb(184, 44, 44);
-        padding-top: 3px;
-        padding-bottom: 3px;
-        margin-right: 1em;
-        margin-left: 1em;
-    }
-
-    p.ladoE {
-        border: 3px solid black;
-        background-color: rgb(184, 44, 44);
-        padding-top: 3px;
-        padding-bottom: 3px;
-        margin-right: 2em;
-        margin-top: -5px;
-    }
-
-    p.ladoD {
-        border: 3px solid black;
-        background-color: rgb(184, 44, 44);
-        padding-top: 3px;
-        padding-bottom: 3px;
-        margin-left: 2em;
-    }
-
-    a {
-        color: rgb(172, 54, 54, 0.747);
-        text-decoration: none;
-    }
-
-    a:hover {
-        text-decoration: underline;
-    }
-}
-
-@media (min-width: 757px) {
-    .container-737px {
-        display: block;
-    }
-
-    .container-450px {
-        display: none;
-    }
-
-    .container-451px {
+    .container-999px {
         display: none;
     }
 
@@ -416,6 +220,10 @@ strong {
         box-shadow: 15px 15px 15px rgba(197, 92, 6, 0.336);
     }
 
+    img {
+        border: 4px solid black;
+    }
+
     img.ladoD {
         margin-left: 30px;
         margin-right: 5px;
@@ -431,7 +239,7 @@ strong {
         border: none;
     }
 
-    figcaption.ladoE1-737px {
+    figcaption.ladoE1-1000px {
         float: left;
         color: rgb(255, 255, 255, 0.747);
         font-size: 0.9em;
@@ -444,7 +252,7 @@ strong {
         margin-top: -5px;
     }
 
-    figcaption.ladoE2-737px {
+    figcaption.ladoE2-1000px {
         float: left;
         font-size: 0.9em;
         border: 3px solid black;
@@ -458,7 +266,7 @@ strong {
         color: black;
     }
 
-    figcaption.ladoD1-737px {
+    figcaption.ladoD1-1000px {
         font-size: 0.9em;
         color: rgba(255, 255, 255, 0.747);
         float: right;
@@ -472,7 +280,7 @@ strong {
         margin-right: -5.5px;
     }
 
-    figcaption.ladoD2-737px {
+    figcaption.ladoD2-1000px {
         font-size: 0.9em;
         border: 3px solid black;
         background-color: black;
