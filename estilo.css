@@ -119,17 +119,11 @@ a:hover {
 /* ------------------------------ */
 
 /* Box */
-.container-filho1 {
-    width: 100%;
-}
-
-.container {
-    width: 100%;
-}
-
 .container-rodapé {
     border: 5px solid rgb(136, 0, 0);
     background: black;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .container-rodapé h3 {
@@ -560,20 +554,19 @@ a:hover {
         padding-left: 1.5px;
         padding-right: 1.5px;
         margin-top: 1.7em;
-        margin-left: 2px;
-        margin-right: 2px;
+        margin-left: 10px;
+        margin-right: 10px;
         margin-bottom: 1.5em;
     }
 
     p.box-2 {
         border: 3px solid black;
         background-color: rgb(184, 44, 44);
-        padding-top: 2px;
-        padding-bottom: 2px;
-        padding-left: 1.6px;
-        padding-right: 1.6px;
+        padding: 2px;
         margin-top: 2em;
         margin-bottom: 1.7em;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     p.box-3 {
@@ -602,11 +595,11 @@ a:hover {
     p.box-5 {
         border: 3px solid black;
         background-color: rgb(184, 44, 44);
-        padding: 2.1px;
+        padding: 2px;
         margin-top: 1.7em;
         margin-bottom: 0.5em;
-        margin-left: 2px;
-        margin-right: 2px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     .container-centro {
@@ -627,6 +620,10 @@ a:hover {
 
     .container-lateralD {
         padding-right: 30px;
+    }
+
+    .container-filho1 {
+        display: none;
     }
 
     .container-filho2-999px {
@@ -716,6 +713,10 @@ a:hover {
         border: 3px solid black;
         background-color: rgb(184, 44, 44);
     }
+
+    h1.segunda-parte {
+        margin-top: -15px;
+    }
     /* ----------------------------- */
 
     /* Media Videos */
@@ -762,6 +763,7 @@ a:hover {
         background-position: none;
         background-size: none;
         background-position: none;
+        margin-left: -1px;
     }
 
     main {
@@ -769,6 +771,8 @@ a:hover {
         box-shadow: none;
         flex-direction: row;
         justify-content: center;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
     .container-1000px {
@@ -799,8 +803,9 @@ a:hover {
     }
 
     .container-figLadoD3 {
+        float: right;
         margin-right: 120px;
-        margin-top: -23.5px;
+        margin-top: -2.6em;
     }
 
     figcaption.ladoD-1000px {
@@ -1068,6 +1073,14 @@ a:hover {
     }
 
     .container-centro-txt {
+        display: none;
+    }
+
+    .container-filho1 {
+        display: block;
+    }
+
+    .container-filho2 {
         display: none;
     }
 
