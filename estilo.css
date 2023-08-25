@@ -210,52 +210,6 @@ a:hover {
         background: rgb(0, 0, 0);
     }
 
-    .container-figGCD1 {
-        text-align: center;
-        margin-left: 22em;
-        margin-top: -1.4em;
-        margin-bottom: 5px;
-    }
-
-    .container-figGCD1 a {
-        background: rgb(0, 0, 0);
-        font-size: 1.1em;
-        padding-left: 8px;
-        padding-right: 8px;
-        padding-bottom: 4px;
-        padding-top: 4px;
-    }
-
-    .container-figGCD2 {
-        text-align: center;
-        margin-left: 21.6em;
-        margin-top: -1.3em;
-    }
-
-    .container-figGCD2 a {
-        font-size: 1.1em;
-        padding-left: 8px;
-        padding-right: 8px;
-        padding-bottom: 4px;
-        padding-top: 4px;
-        background: rgb(0, 0, 0);
-    }
-
-    .container-figGCD3 {
-        text-align: center;
-        margin-left: 20em;
-        margin-top: -1.3em;
-    }
-
-    .container-figGCD3 a {
-        font-size: 1.1em;
-        padding-left: 8px;
-        padding-right: 8px;
-        padding-bottom: 4px;
-        padding-top: 4px;
-        background: rgb(0, 0, 0);
-    }
-
     .container-figLadoE1 {
         display: none;
     }
@@ -330,49 +284,47 @@ a:hover {
         border: 4px solid black;
     }
 
-    .container-figGCE1 {
-        text-align: center;
-        margin-right: 22em;
-        margin-top: -2px;
-    }
-
-    .container-figGCE1 a{
-        font-size: 1.1em;
+    .container-fig-unico {
         background: #000000;
-        padding-left: 8px;
-        padding-right: 8px;
-        padding-bottom: 4px;
-        padding-top: 4px;   
+        padding: 4px;
+        margin-top: -6px;
+        margin-left: 7.5em;
+        margin-right: 8em;
     }
 
-    .container-figGCE2 {
-        text-align: center;
-        margin-right: 22.1em;
-        margin-top: -4px;
-    }
-
-    .container-figGCE2 a {
+    .container-fig-unico2 {
         background: #000000;
-        font-size: 1.1em;
-        padding-left: 8px;
-        padding-right: 8px;
-        padding-bottom: 4px;
-        padding-top: 4px;   
+        padding: 4px;
+        margin-top: -6px;
+        margin-left: 8em;
+        margin-right: 7.5em;
     }
 
-    .container-figGCE3 {
-        text-align: center;
-        margin-right: 18.9em;
-        margin-top: -3px;
-    }
-
-    .container-figGCE3 a {
+    .container-fig-unico3 {
         background: #000000;
+        padding: 4px;
+        padding-right: 4px;
+        margin-top: -6px;
+        margin-left: 9em;
+        margin-right: 9em;
+    }
+
+    .container-fig-unico figcaption{
+        color: white;
+        text-align: center;
         font-size: 1.1em;
-        padding-left: 8px;
-        padding-right: 8px;
-        padding-bottom: 4px;
-        padding-top: 4px;   
+    }
+
+    .container-fig-unico2 figcaption {
+        color: white;
+        text-align: center;
+        font-size: 1.1em;
+    }
+
+    .container-fig-unico3 figcaption {
+        color: white;
+        text-align: center;
+        font-size: 1.1em;
     }
 
     .container-figGC1 {
@@ -380,8 +332,8 @@ a:hover {
         font-size: 1em;
         color: rgb(255, 255, 255);
         margin-top: -8.5px;
-        margin-left: 5.7em;
-        margin-right: 5.7em;
+        margin-left: 5em;
+        margin-right: 5em;
         background-color: black;
         border: 3px solid black;
         padding-top: 3px;
@@ -395,8 +347,8 @@ a:hover {
         font-size: 1em;
         color: rgb(255, 255, 255);
         margin-top: -9px;
-        margin-left: 6.5em;
-        margin-right: 6.5em;
+        margin-left: 5.5em;
+        margin-right: 5.5em;
         margin-bottom: 10px;
         background-color: black;
         border: 3px solid black;
@@ -411,8 +363,8 @@ a:hover {
         font-size: 1em;
         color: rgb(255, 255, 255);
         margin-top: -8px;
-        margin-left: 5.8em;
-        margin-right: 5.8em;
+        margin-left: 5em;
+        margin-right: 5em;
         background-color: black;
         border: 3px solid black;
         padding-top: 3px;
@@ -425,9 +377,9 @@ a:hover {
         text-align: center;
         font-size: 1em;
         color: rgb(255, 255, 255);
-        margin-top: -8px;
-        margin-left: 6.9em;
-        margin-right: 6.9em;
+        margin-top: -7px;
+        margin-left: 5.5em;
+        margin-right: 5.5em;
         background-color: black;
         border: 3px solid black;
         padding-top: 3px;
@@ -441,8 +393,8 @@ a:hover {
         font-size: 1em;
         color: rgb(255, 255, 255);
         margin-top: -8px;
-        margin-left: 11em;
-        margin-right: 11em;
+        margin-left: 9em;
+        margin-right: 9em;
         background-color: black;
         border: 3px solid black;
         padding-top: 3px;
@@ -456,8 +408,8 @@ a:hover {
         font-size: 1em;
         color: rgb(255, 255, 255);
         margin-top: -7.5px;
-        margin-left: 10em;
-        margin-right: 10em;
+        margin-left: 8em;
+        margin-right: 8em;
         background-color: black;
         border: 3px solid black;
         padding-top: 3px;
@@ -473,8 +425,8 @@ a:hover {
         color: rgb(255, 255, 255);
         background-color: black;
         border: 3px solid black;
-        margin-left: 6.5em;
-        margin-right: 6.5em;
+        margin-left: 6em;
+        margin-right: 6em;
         padding: 3px;
     }
     /* ---------------------------------------- */
@@ -864,15 +816,15 @@ a:hover {
         display: none;
     }
 
-    .container-figGCD1 {
+    .container-fig-unico {
         display: none;
     }
 
-    .container-figGCD2 {
+    .container-fig-unico2 {
         display: none;
     }
 
-    .container-figGCD3 {
+    .container-fig-unico3 {
         display: none;
     }
 
@@ -889,18 +841,6 @@ a:hover {
     }
 
     .container-figGE4 {
-        display: none;
-    }
-
-    .container-figGCE1 {
-        display: none;
-    }
-
-    .container-figGCE2 {
-        display: none;
-    }
-
-    .container-figGCE3 {
         display: none;
     }
 
