@@ -794,7 +794,7 @@ a:hover {
     .container-figLadoD1 {
         text-align: center;
         margin-right: 67px;
-        margin-top: -4px;
+        margin-top: -0.56em;
     }
 
     .container-figLadoD2 {
@@ -805,7 +805,7 @@ a:hover {
     .container-figLadoD3 {
         float: right;
         margin-right: 120px;
-        margin-top: -2.6em;
+        margin-top: -2em;
     }
 
     figcaption.ladoD-1000px {
@@ -821,8 +821,8 @@ a:hover {
     }
 
     .container-figLadoE1 {
-        margin-left: 25px;
-        margin-top: -1px;
+        margin-top: -0.3em;
+        margin-left: 1.85em;
     }
 
     .container-figLadoE2 {
@@ -836,8 +836,8 @@ a:hover {
     }
 
     .container-figLadoE4 {
-        margin-left: 105px;
-        margin-top: -4px;
+        margin-left: 6.8em;
+        margin-top: -1.06em;
     }
 
     figcaption.ladoE-1000px {
@@ -1102,6 +1102,18 @@ a:hover {
 
     .container-guia-999px {
         display: none;
+    }
+
+    p.txt1 {
+        margin-top: 3px;
+    }
+
+    p.txt2 {
+        margin-top: -7px;
+    }
+
+    p.txt3 {
+        margin-top: 5px;
     }
     /* --------------------------- */
 
